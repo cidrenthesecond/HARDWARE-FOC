@@ -1,0 +1,16 @@
+.AM26LS32ACDR :1 ;Quadruple Differential Line Receivers
+SOIC127P600X175-16N
+*STM IC
+*NGS
+*PLB 1="1B" 2="1A" 3="1Y" 4="G" 5="2Y" 6="2A" 7="2B" 8="GND" 9="3B" 10="3A" 11="3Y" 12="'G'" 13="4Y" 14="4A" 15="4B" 16="VCC"
+*MXP 16
+*DFN AM26LS32ACDR
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (AM26LS32ACDR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/am26ls32ac)
+~!Height (1.75mm)
+~!3D_Model (AM26LS32ACDR)
+AM26LS32ACDR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

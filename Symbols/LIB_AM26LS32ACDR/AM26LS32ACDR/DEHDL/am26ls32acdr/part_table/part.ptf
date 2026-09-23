@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AM26LS32ACDR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "AM26LS32ACDR" (!) = "", "SOIC127P600X175-16N", "Small Outline Packages", "", "", "Quadruple Differential Line Receivers", "http://www.ti.com/lit/gpn/am26ls32ac", "1.75 mm"
+END_PART
+
+END.

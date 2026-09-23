@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AM26L32ACDR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_AM26LS32ACDR/AM26LS32ACDR/KiCad")(options "")(descr ""))
+  (lib (name "AP2151")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_AP2151AW-7/AP2151AW-7/KiCad")(options "")(descr ""))
+)

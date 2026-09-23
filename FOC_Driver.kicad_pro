@@ -623,8 +623,20 @@
       "Connectors"
     ],
     [
-      "2f753635-8aa5-4dcb-b283-f47f9f43d447",
-      "External_Power"
+      "f57fc778-86a0-45eb-a73e-171c173df74a",
+      "RS485"
+    ],
+    [
+      "a853fa18-1554-4543-86ef-20ec948ab35c",
+      "Encoder"
+    ],
+    [
+      "2a1e2b54-6705-408c-be39-11e4338a49b1",
+      "External_Memory"
+    ],
+    [
+      "de6b40c6-0454-4809-8c15-f4017be2b905",
+      "User_Interface"
     ]
   ],
   "text_variables": {}

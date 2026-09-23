@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AM26LS32ACDR
+D Quadruple Differential Line Receivers
+K
+F http://www.ti.com/lit/gpn/am26ls32ac
+$ENDCMP
+#
+#End Doc Library

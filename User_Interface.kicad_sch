@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "631422bd-4789-4e84-a024-8efab3875923")
+	(paper "A4")
+	(lib_symbols)
+	(text "Przyciski:\nESTOP\nRun/Stop\nError fixed\n\nLampki:\nESTOP ON\nRUN\nERROR"
+		(exclude_from_sim no)
+		(at 87.63 69.088 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "4d0d00fc-54d8-4a51-9c07-e516a954fe64")
+	)
+)

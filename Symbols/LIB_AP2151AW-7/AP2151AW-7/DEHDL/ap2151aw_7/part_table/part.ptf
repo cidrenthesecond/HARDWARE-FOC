@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP2151AW_7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP2151AW-7" (!) = "", "SOT95P285X140-5N", "SOT23 (5-Pin)", "", "", "Power Switch ICs - Power Distribution 0.5A Sgl-Ch Switch 0.8A 95mOhm 0.6ms", "https://www.diodes.com/assets/Datasheets/AP2151A.pdf", "1.4 mm"
+END_PART
+
+END.

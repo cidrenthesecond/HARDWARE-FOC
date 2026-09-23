@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2151AW-7
+D Power Switch ICs - Power Distribution 0.5A Sgl-Ch Switch 0.8A 95mOhm 0.6ms
+K
+F https://www.diodes.com/assets/Datasheets/AP2151A.pdf
+$ENDCMP
+#
+#End Doc Library

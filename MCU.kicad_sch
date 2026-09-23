@@ -3471,6 +3471,16 @@
 		)
 		(uuid "5425287a-5627-4354-951d-6d2a0e17efac")
 	)
+	(text "Pin number:\n13(3)/64"
+		(exclude_from_sim no)
+		(at 67.056 182.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ae07867-4806-4a3c-ac38-6dd828d892b7")
+	)
 	(text "Layout Note:\nMinimize \ninductance"
 		(exclude_from_sim no)
 		(at 97.79 48.514 0)
@@ -4636,6 +4646,16 @@
 		)
 		(uuid "7acb94bf-e29c-4567-a75e-1d4437c751e2")
 	)
+	(label "UART_Rx"
+		(at 31.75 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b23c7596-788c-4e3c-9657-8b5e19d35c72")
+	)
 	(label "SWDIO"
 		(at 229.87 40.64 180)
 		(effects
@@ -4706,6 +4726,16 @@
 		)
 		(uuid "e353c639-d8bc-4943-b863-a7f1ce80efa6")
 	)
+	(label "UART_Tx"
+		(at 31.75 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea6c7604-4d6c-406a-ae15-2e667bbb514d")
+	)
 	(label "NRST"
 		(at 229.87 43.18 180)
 		(effects
@@ -4725,6 +4755,226 @@
 			(justify left bottom)
 		)
 		(uuid "f07343e2-0944-4fa6-bbbf-1fb93ca435e4")
+	)
+	(hierarchical_label "Encoder_A"
+		(shape input)
+		(at 33.02 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "144bc462-7932-4fa2-8244-023fd0ca79a2")
+	)
+	(hierarchical_label "MOSI"
+		(shape output)
+		(at 30.48 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3958d720-eb10-488a-997e-6546d2d865f0")
+	)
+	(hierarchical_label "BusVoltage"
+		(shape input)
+		(at 31.75 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "415d136b-9dd9-4cfc-a120-d4df3a543668")
+	)
+	(hierarchical_label "Encoder_En"
+		(shape output)
+		(at 33.02 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ec69d62-83f6-4b54-9e37-9c7382c5e53d")
+	)
+	(hierarchical_label "Current_C"
+		(shape input)
+		(at 31.75 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f61b584-2b1b-46a3-be73-c1784d2269b1")
+	)
+	(hierarchical_label "Current_A"
+		(shape input)
+		(at 31.75 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f737a90-6e2c-4d5a-b426-7d7ec3df0fad")
+	)
+	(hierarchical_label "Current_B"
+		(shape input)
+		(at 31.75 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "636b76f2-7fbc-4074-bc0d-c73c6ff70cc5")
+	)
+	(hierarchical_label "nCS"
+		(shape output)
+		(at 30.48 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "716096fa-2f4d-4263-8d37-2aa862ffd99c")
+	)
+	(hierarchical_label "Encoder_B"
+		(shape input)
+		(at 33.02 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b849f93-bf3d-4931-a1a1-5272bf76cf7d")
+	)
+	(hierarchical_label "heatsinkTemperature"
+		(shape input)
+		(at 31.75 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f3e4b13-40a7-42e3-a5a5-213a7d11528e")
+	)
+	(hierarchical_label "Encoder_Flg"
+		(shape input)
+		(at 33.02 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b373a46a-3bdf-4656-910d-8113ff69c7c7")
+	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 30.48 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb0d5fb7-8955-4084-a6c8-d5e7d6c8a96c")
+	)
+	(hierarchical_label "nWP"
+		(shape output)
+		(at 30.48 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1b03601-38e9-41ae-a3be-5c362308aa43")
+	)
+	(hierarchical_label "EM_STOP"
+		(shape output)
+		(at 31.75 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca6496de-1d1b-4526-8849-37d98236ad58")
+	)
+	(hierarchical_label "Encoder_0"
+		(shape input)
+		(at 33.02 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd08b3af-f86e-414f-bebc-1bfc4d9d42b1")
+	)
+	(hierarchical_label "Software_Brake"
+		(shape output)
+		(at 31.75 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf20cbba-f9bc-4623-8ded-dfe5994be385")
+	)
+	(hierarchical_label "SCLK"
+		(shape output)
+		(at 30.48 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df5cfded-6131-4b0f-b265-623dd2d3d502")
+	)
+	(hierarchical_label "RS485_Tx"
+		(shape output)
+		(at 21.59 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efcd53a4-e756-4666-b90f-22a96dafc69e")
+	)
+	(hierarchical_label "RS485_Rx"
+		(shape input)
+		(at 21.59 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2cd8ac5-7ab2-4783-9fec-5acd89f8a692")
+	)
+	(hierarchical_label "Bypass_Relay"
+		(shape output)
+		(at 31.75 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa99206c-450d-47b0-8dc8-fe22c28161d3")
 	)
 	(symbol
 		(lib_id "Device:R")

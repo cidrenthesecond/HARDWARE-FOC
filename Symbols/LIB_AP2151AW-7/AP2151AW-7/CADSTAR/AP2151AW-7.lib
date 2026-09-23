@@ -1,0 +1,16 @@
+.AP2151AW-7 :1 ;Power Switch ICs - Power Distribution 0.5A Sgl-Ch Switch 0.8A 95mOhm 0.6ms
+SOT95P285X140-5N
+*STM IC
+*NGS
+*PLB 1="OUT" 2="GND" 3="FLG" 4="EN" 5="IN"
+*MXP 5
+*DFN AP2151AW-7
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP2151AW-7)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/AP2151A.pdf)
+~!Height (1.4mm)
+~!3D_Model (AP2151AW-7)
+AP2151AW-7
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

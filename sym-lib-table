@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Stm32h503rbt6")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Stm32h503rbt6.kicad_sym")(options "")(descr ""))
   (lib (name "Proj")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Proj.kicad_sym")(options "")(descr ""))
+  (lib (name "FOC")(type "KiCad")(uri "${KIPRJMOD}/Symbols/FOC.kicad_sym")(options "")(descr ""))
 )
