@@ -1,0 +1,16 @@
+.131M61 :1 ;IC: interface; digital isolator; 10Mbps; iDivider; 35.5VDC; SMD
+SOIC127P1030X265-16N
+*STM IC
+*NGS
+*PLB 1="VDD1" 2="GND1_1" 3="VIA" 4="VIB" 5="VOC" 6="NC_1" 7="EN1" 8="GND1_2" 9="GND2_1" 10="EN2" 11="NC_2" 12="VIC" 13="VOB" 14="VOA" 15="GND2_2" 16="VDD2"
+*MXP 16
+*DFN 131M61
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (2Pai Semi)
+~!Manufacturer_Part_Number (Π131M61)
+~!Link Datasheet (https://www.rpsemi.com/d.php?id=1593)
+~!Height (2.65mm)
+~!3D_Model (Π131M61)
+"131M61"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

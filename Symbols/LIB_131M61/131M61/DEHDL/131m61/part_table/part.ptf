@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '131M61'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "2Pai Semi", "Π131M61" (!) = "", "SOIC127P1030X265-16N", "Small Outline Packages", "", "", "IC: interface; digital isolator; 10Mbps; iDivider; 35.5VDC; SMD", "https://www.rpsemi.com/d.php?id=1593", "2.65 mm"
+END_PART
+
+END.

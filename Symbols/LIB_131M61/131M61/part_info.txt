@@ -1,0 +1,9 @@
+Manufacturer=2Pai Semi
+PartNumber=Π131M61
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2025-07-24 10:43:06
+Downloaded=2026-10-08 16:34:59
+3D=Y

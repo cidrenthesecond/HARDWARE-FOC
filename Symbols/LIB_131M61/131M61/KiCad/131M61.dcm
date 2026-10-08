@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 131M61
+D IC: interface; digital isolator; 10Mbps; iDivider; 35.5VDC; SMD
+K
+F https://www.rpsemi.com/d.php?id=1593
+$ENDCMP
+#
+#End Doc Library
