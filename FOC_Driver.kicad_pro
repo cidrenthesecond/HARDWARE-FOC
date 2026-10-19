@@ -637,6 +637,10 @@
     [
       "de6b40c6-0454-4809-8c15-f4017be2b905",
       "User_Interface"
+    ],
+    [
+      "9e9712b1-28dc-4627-8025-e4634456cce2",
+      "Power"
     ]
   ],
   "text_variables": {}
