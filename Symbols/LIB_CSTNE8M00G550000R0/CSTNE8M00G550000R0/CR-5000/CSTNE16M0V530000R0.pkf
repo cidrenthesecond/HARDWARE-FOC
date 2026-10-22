@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CSTNE16M0V530000R0"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CSTNE16M0V530000R0")
+        (spec "default")
+    )
+)

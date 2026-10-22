@@ -1,0 +1,16 @@
+.CSTNE8M00G550000R0 :1 ;Resonators 8.0000MHz 33pF SMD CHP Resntr
+CSTNE16M0V530000R0
+*STM U
+*NGS
+*PLB 1="INPUT" 2="GND" 3="OUTPUT"
+*MXP 3
+*DFN CSTNE8M00G550000R0
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (CSTNE8M00G550000R0)
+~!Link Datasheet (https://www.murata.com/products/productdata/8801159905310/SPEC-CSTNE8M00G550000R0.pdf)
+~!Height (1mm)
+~!3D_Model (CSTNE8M00G550000R0)
+CSTNE8M00G550000R0
+1.1!U 2.1!U 3.1!U 

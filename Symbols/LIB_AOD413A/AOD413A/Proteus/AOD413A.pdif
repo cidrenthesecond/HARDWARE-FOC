@@ -1,0 +1,151 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AOD413A"
+   (description "Trans MOSFET P-CH 40V 12A 3-Pin(2+Tab) DPAK")
+   (family "TRX")
+   (package "AOD413A")
+   (attribute "Datasheet Link" "https://www.aosmd.com/res/datasheets/AOD413A.pdf")
+   (attribute "Geometry.Height" "2.6mm")
+   (attribute "TME Electronic Components Part Number" "")
+   (attribute "TME Electronic Components Price/Stock" "")
+   (attribute "Manufacturer_Name" "Alpha & Omega Semiconductors")
+   (attribute "Manufacturer_Part_Number" "AOD413A")
+   (gate
+    (symbol "AOD413A")
+    (pin "G" 1 PS)
+    (pin "D" 2 PS)
+    (pin "S" 3 PS)
+   )
+  )
+  (symbol "AOD413A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 100) (pt 100 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 300 300))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0) (pt 200 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 230 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 230 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 220) (pt 230 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 -20) (pt 230 20))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 80) (pt 230 120))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 260 120) (pt 260 80) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 80 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 400) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 -200) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AOD413A"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.302 4.492)
+      (pt 3.302 4.492)
+      (pt 3.302 -1.604)
+      (pt -3.302 -1.604)
+      (pt -3.302 4.492))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.302 6.508)
+      (pt 4.302 6.508)
+      (pt 4.302 -6.992)
+      (pt -4.302 -6.992)
+      (pt -4.302 6.508))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.286 -6.5)
+      (arc (pt -2.286 -6.500) (pt -2.336 -6.600) (pt -2.236 -6.500) (start 180.0) (sweep 90.0))
+      (pt -2.286 -6.6)
+      (arc (pt -2.286 -6.600) (pt -2.336 -6.600) (pt -2.236 -6.500) (start 180.0) (sweep -90.0))
+      (pt -2.286 -6.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.302 -1.604)
+      (pt 3.302 -1.604))))
+   (leg 1 (pt -2.286 -4.492) (padstack 0))
+   (leg 2 (pt 0.000 2.108) (padstack 2))
+   (leg 3 (pt 2.286 -4.492) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.500 3.000 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 6.250 6.800 0 0 90.000))
+   )
+   (model "AOD413A.stp"
+    (euler 90 0 0)
+    (offset 0 -0.23999999463558197 0.20000000298023224)
+   )
+  )
+ )
+)

@@ -1,0 +1,229 @@
+(footprint "AOD413A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AOD413A-4")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0.242 0)
+		(layer "F.SilkS")
+		(uuid "928698b0-f4ac-476f-bacb-507fdd35298b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AOD413A"
+		(at 0 0.242 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9f0da431-af41-4aac-aa6b-ae22ec23d170")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a627aadb-4b27-474e-928f-3c0a77bc8f27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dfb5000-b271-49cb-bf1d-c9fb45e6fb4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.302 1.604)
+		(end 3.302 1.604)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8a1238c-4dda-4d41-8156-c652ba522c8a")
+	)
+	(fp_line
+		(start -2.286 6.5)
+		(end -2.286 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e461c9d0-eec0-4f42-b0ee-78c9e0cb4f4f")
+	)
+	(fp_line
+		(start -2.286 6.6)
+		(end -2.286 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b726b0c5-5f60-4c3a-9fda-76a8440e2b65")
+	)
+	(fp_arc
+		(start -2.286 6.5)
+		(mid -2.236 6.55)
+		(end -2.286 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42798555-038d-4679-8e0b-cf7cde3b2359")
+	)
+	(fp_arc
+		(start -2.286 6.6)
+		(mid -2.336 6.55)
+		(end -2.286 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dab95187-b9f0-4be5-82ee-3e54e2b727a2")
+	)
+	(fp_line
+		(start -4.302 -6.508)
+		(end 4.302 -6.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad7fabc9-f7f7-4777-863a-7e38d4ef377a")
+	)
+	(fp_line
+		(start -4.302 6.992)
+		(end -4.302 -6.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf6f0242-d0e1-42a7-b2cc-c707a457a331")
+	)
+	(fp_line
+		(start 4.302 -6.508)
+		(end 4.302 6.992)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06622f86-67e5-447e-9867-bd3eab201715")
+	)
+	(fp_line
+		(start 4.302 6.992)
+		(end -4.302 6.992)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b44a7f3b-8ca4-4b81-a9a3-de6d6fa67be6")
+	)
+	(fp_line
+		(start -3.302 -4.492)
+		(end 3.302 -4.492)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f6a993a-2b0b-4ca0-84a1-1be21d1830ae")
+	)
+	(fp_line
+		(start -3.302 1.604)
+		(end -3.302 -4.492)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95b2c33a-f3a3-4601-8391-fce4dac62ff0")
+	)
+	(fp_line
+		(start 3.302 -4.492)
+		(end 3.302 1.604)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "044920a4-7841-4bd5-80d0-90f798fec7d1")
+	)
+	(fp_line
+		(start 3.302 1.604)
+		(end -3.302 1.604)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31431482-2a70-4ead-bc3c-f2bc61ff3605")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.242 0)
+		(layer "F.Fab")
+		(uuid "ffbf45c0-f9c4-425c-adcc-3f21edf94a0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.286 4.492)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9cc5d508-b4cf-41bd-ad2b-3b2d5c238e87")
+	)
+	(pad "2" smd rect
+		(at 0 -2.108)
+		(size 6.25 6.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb8a4fc0-cdcb-44be-8102-3451373b6373")
+	)
+	(pad "3" smd rect
+		(at 2.286 4.492)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f25f09b-a04f-423e-89fa-4c6d8ca108b5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Symbols/LIB_AOD413A/AOD413A/3D/AOD413A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

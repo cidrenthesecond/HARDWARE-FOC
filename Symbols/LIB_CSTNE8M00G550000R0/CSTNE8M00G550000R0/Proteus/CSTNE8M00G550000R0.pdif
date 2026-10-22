@@ -1,0 +1,114 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CSTNE8M00G550000R0"
+   (description "Resonators 8.0000MHz 33pF SMD CHP Resntr")
+   (family "ANA")
+   (package "CSTNE16M0V530000R0")
+   (attribute "Datasheet Link" "https://www.murata.com/products/productdata/8801159905310/SPEC-CSTNE8M00G550000R0.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "TME Electronic Components Part Number" "")
+   (attribute "TME Electronic Components Price/Stock" "")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "CSTNE8M00G550000R0")
+   (gate
+    (symbol "CSTNE8M00G550000R0")
+    (pin "INPUT" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "OUTPUT" 3 PS)
+   )
+  )
+  (symbol "CSTNE8M00G550000R0"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CSTNE16M0V530000R0"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 1.075)
+      (pt 1.6 1.075)
+      (pt 1.6 -0.225)
+      (pt -1.6 -0.225)
+      (pt -1.6 1.075))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.6 2.375)
+      (pt 2.6 2.375)
+      (pt 2.6 -2.075)
+      (pt -2.6 -2.075)
+      (pt -2.6 2.375))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.6 -0.225)
+      (pt -1.6 1.075))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.6 -0.225)
+      (pt 1.6 1.075))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.3 -0.975)
+      (arc (pt -1.300 -0.975) (pt -1.300 -1.075) (pt -1.100 -0.875) (start -180.0) (sweep 180.0))
+      (pt -1.1 -0.975)
+      (arc (pt -1.100 -0.975) (pt -1.300 -1.075) (pt -1.100 -0.875) (start -180.0) (sweep .0))
+      (pt -1.3 -0.975))))
+   (leg 1 (pt -1.200 0.425) (padstack 0))
+   (leg 2 (pt 0.000 0.425) (padstack 0))
+   (leg 3 (pt 1.200 0.425) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 1.900 0 0 90.000))
+   )
+   (model "CSTNE8M00G550000R0.stp"
+    (euler 90 0 0)
+    (offset 0 0.46000000834465027 0.4000000059604645)
+   )
+  )
+ )
+)

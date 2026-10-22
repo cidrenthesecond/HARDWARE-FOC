@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AOD413A
+D Trans MOSFET P-CH 40V 12A 3-Pin(2+Tab) DPAK
+K
+F https://www.aosmd.com/res/datasheets/AOD413A.pdf
+$ENDCMP
+#
+#End Doc Library

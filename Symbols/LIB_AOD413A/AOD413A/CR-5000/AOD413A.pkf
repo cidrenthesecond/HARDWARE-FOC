@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AOD413A"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AOD413A")
+        (spec "default")
+    )
+)

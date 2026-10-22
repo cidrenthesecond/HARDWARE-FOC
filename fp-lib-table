@@ -3,4 +3,6 @@
   (lib (name "AM26L32ACDR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_AM26LS32ACDR/AM26LS32ACDR/KiCad")(options "")(descr ""))
   (lib (name "AP2151")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_AP2151AW-7/AP2151AW-7/KiCad")(options "")(descr ""))
   (lib (name "131M61")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_131M61/131M61/KiCad")(options "")(descr ""))
+  (lib (name "AOD413A")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_AOD413A/AOD413A/KiCad")(options "")(descr ""))
+  (lib (name "CSTNE8")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_CSTNE8M00G550000R0/CSTNE8M00G550000R0/KiCad")(options "")(descr ""))
 )

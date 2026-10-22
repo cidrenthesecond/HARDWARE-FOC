@@ -4,4 +4,6 @@
   (lib (name "Proj")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Proj.kicad_sym")(options "")(descr ""))
   (lib (name "FOC")(type "KiCad")(uri "${KIPRJMOD}/Symbols/FOC.kicad_sym")(options "")(descr ""))
   (lib (name "PI_131")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_131M61/131M61/KiCad/131M61.kicad_sym")(options "")(descr ""))
+  (lib (name "AOD413A")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_AOD413A/AOD413A/KiCad/AOD413A.kicad_sym")(options "")(descr ""))
+  (lib (name "CSTNE8M00G550000R0")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LIB_CSTNE8M00G550000R0/CSTNE8M00G550000R0/KiCad/CSTNE8M00G550000R0.kicad_sym")(options "")(descr ""))
 )

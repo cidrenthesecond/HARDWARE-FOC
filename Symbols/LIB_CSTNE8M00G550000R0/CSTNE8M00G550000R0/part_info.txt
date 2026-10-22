@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=CSTNE8M00G550000R0
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=3
+Version=5.2
+Released=2018-12-26 23:06:41
+Downloaded=2026-05-24 18:56:41
+3D=Y

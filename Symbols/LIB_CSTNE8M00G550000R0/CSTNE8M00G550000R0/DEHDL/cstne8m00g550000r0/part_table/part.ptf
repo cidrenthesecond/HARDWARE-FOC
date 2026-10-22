@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CSTNE8M00G550000R0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "CSTNE8M00G550000R0" (!) = "", "CSTNE16M0V530000R0", "Other", "", "", "Resonators 8.0000MHz 33pF SMD CHP Resntr", "https://www.murata.com/products/productdata/8801159905310/SPEC-CSTNE8M00G550000R0.pdf", "1 mm"
+END_PART
+
+END.

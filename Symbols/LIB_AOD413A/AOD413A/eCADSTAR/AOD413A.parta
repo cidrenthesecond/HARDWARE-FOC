@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_3545100"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-02-10-07:49:09)
+    (utime 2025-04-24-14:36:51)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "AOD413A")
+)
+
+
+(pinAssign "ECS_3545100"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-02-10-07:49:09)
+    (utime 2025-04-24-14:36:51)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_3545100")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "AOD413A")
+)
+
+
+(part "AOD413A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-02-10-07:49:09)
+    (utime 2025-04-24-14:36:51)
+    (packageRef "AOD413A")
+    (pinAssignRef "ECS_3545100")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Trans MOSFET P-CH 40V 12A 3-Pin(2+Tab) DPAK")
+    (property "TME_Electronic_Components_Part_Number" "")
+    (property "TME_Electronic_Components_Price/Stock" "")
+    (property "Manufacturer_Name" "Alpha & Omega Semiconductors")
+    (property "Manufacturer_Part_Number" "AOD413A")
+    (property "Datasheet_Link" "https://www.aosmd.com/res/datasheets/AOD413A.pdf")
+    (property "compAreaTopHeight" 2.6)
+)
+
+

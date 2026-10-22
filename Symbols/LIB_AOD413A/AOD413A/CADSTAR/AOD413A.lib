@@ -1,0 +1,16 @@
+.AOD413A :1 ;Trans MOSFET P-CH 40V 12A 3-Pin(2+Tab) DPAK
+AOD413A
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN AOD413A
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Alpha & Omega Semiconductors)
+~!Manufacturer_Part_Number (AOD413A)
+~!Link Datasheet (https://www.aosmd.com/res/datasheets/AOD413A.pdf)
+~!Height (2.6mm)
+~!3D_Model (AOD413A)
+AOD413A
+1.1!U 2.1!U 3.1!U 

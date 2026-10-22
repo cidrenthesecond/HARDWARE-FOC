@@ -2895,7 +2895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical"
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 34.925 77.47 90)
 			(effects
 				(font
