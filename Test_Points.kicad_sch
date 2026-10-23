@@ -1,0 +1,22 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1dbb5447-517e-4663-bda3-201a5978b9d8")
+	(paper "A5")
+	(lib_symbols)
+	(text "TP1  : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c/e606bd73-0a2f-4bce-a9a7-72278fdb8723:Value}\nTP2  : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c/2b64a55e-d67e-4cf6-a908-d4a5125a53ab:Value}\nTP3  : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c/86ba51e8-3cbd-4023-9346-cf9f15f93146:Value}\nTP4  : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c/4f79181c-2946-40da-b79b-66609e809076:Value}\nTP5  : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c/8248b4e7-2b02-454f-9eb7-fc5f63eb77c2:Value}\nTP6  : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a/10775dcc-db09-4934-8bd7-fd71a69fcd3d:Value}\nTP7  : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a/fbd8a320-581d-4258-8b0f-5ab59ae7393e:Value}\nTP8  : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a/2813f24b-21ec-4fc8-8ad0-19e9427303bb:Value}\nTP9  : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253/de2c8781-356c-4182-9dae-9a1dbfa5d4d8:Value}\nTP10 : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253/a88afd1c-9c69-483c-ba81-30ef80f20352:Value}\nTP11 : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253/d584c363-d171-4044-b112-cd06bdca1ef8:Value}\nTP12 : ${/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253/6079dfe3-80ba-4e91-99f6-f1258f05b84e:Value}"
+		(exclude_from_sim no)
+		(at 43.434 41.148 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e48fe2a6-cad8-49a2-b982-d61dc48741c1")
+	)
+)

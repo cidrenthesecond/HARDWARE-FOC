@@ -641,6 +641,10 @@
     [
       "9e9712b1-28dc-4627-8025-e4634456cce2",
       "Power"
+    ],
+    [
+      "a776cfbe-8148-49c5-82b7-da8023ed72ca",
+      "Test_Points"
     ]
   ],
   "text_variables": {}
