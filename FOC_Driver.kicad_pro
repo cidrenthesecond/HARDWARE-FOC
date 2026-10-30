@@ -226,7 +226,36 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1143000|419100|5138c0b1-15e3-4aba-9470-6bb47a23b35b|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1498600|558800|db83cc90-01c4-47dd-9a18-7662927ae81f|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1651000|1295400|e9f7371e-6222-4b48-a23f-43b6372d4f20|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1752600|1219200|e9f7371e-6222-4b48-a23f-43b6372d4f20|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1993900|1219200|a02d360f-230f-4227-89cf-f59c823eeb1a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|749300|1117600|60c92964-e1ee-48c7-90bc-216b3bb59c1f|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|2222500|1028700|7fd08082-914e-4967-a2ee-215468fa541f|218f4342-8399-4d18-bb15-a54e2548393f|/d122ff09-cd02-4f53-acb5-49b9ee3003a4/de6b40c6-0454-4809-8c15-f4017be2b905|/d122ff09-cd02-4f53-acb5-49b9ee3003a4/de6b40c6-0454-4809-8c15-f4017be2b905|/d122ff09-cd02-4f53-acb5-49b9ee3003a4/de6b40c6-0454-4809-8c15-f4017be2b905",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -437,7 +466,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -478,7 +507,17 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "/Encoder/0": "rgb(255, 0, 255)",
+      "/Encoder/A": "rgb(255, 0, 255)",
+      "/Encoder/B": "rgb(255, 0, 255)",
+      "/Encoder/{slash}0": "rgb(255, 0, 255)",
+      "/Encoder/{slash}A": "rgb(255, 0, 255)",
+      "/Encoder/{slash}B": "rgb(255, 0, 255)",
+      "Net-(U10-A0)": "rgb(255, 153, 0)",
+      "Net-(U10-A2)": "rgb(255, 153, 0)",
+      "Net-(U10-A4)": "rgb(255, 153, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -560,12 +599,54 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME Electronic Components Part Number",
+          "name": "TME Electronic Components Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME Electronic Components Price/Stock",
+          "name": "TME Electronic Components Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -623,12 +704,12 @@
       "Connectors"
     ],
     [
-      "f57fc778-86a0-45eb-a73e-171c173df74a",
-      "RS485"
-    ],
-    [
       "a853fa18-1554-4543-86ef-20ec948ab35c",
       "Encoder"
+    ],
+    [
+      "f57fc778-86a0-45eb-a73e-171c173df74a",
+      "RS485"
     ],
     [
       "2a1e2b54-6705-408c-be39-11e4338a49b1",
