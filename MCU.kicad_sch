@@ -919,6 +919,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3332,29 +3515,6 @@
 		)
 		(uuid "2f2467d9-ee20-4671-b9f0-a378c9fb6001")
 	)
-	(text "Dodac rezystor disable drive"
-		(exclude_from_sim no)
-		(at 91.44 178.308 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "4c8b8cd5-9b2b-40da-a4e6-964bf76229b3")
-	)
-	(text "Pin number:\n8(3)/64"
-		(exclude_from_sim no)
-		(at 86.868 187.706 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5ae07867-4806-4a3c-ac38-6dd828d892b7")
-	)
 	(text "Layout Note:\nMinimize \ninductance"
 		(exclude_from_sim no)
 		(at 97.79 48.514 0)
@@ -3585,6 +3745,16 @@
 			(type default)
 		)
 		(uuid "00d5f192-671a-4bbe-9411-204f69513b6e")
+	)
+	(wire
+		(pts
+			(xy 152.4 156.21) (xy 152.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f37bea-053c-4ad7-befb-5dac2aa9ec6c")
 	)
 	(wire
 		(pts
@@ -3848,6 +4018,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 165.1) (xy 152.4 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26576125-b016-4aee-8730-93c397becd3d")
+	)
+	(wire
+		(pts
 			(xy 74.93 166.37) (xy 76.2 166.37)
 		)
 		(stroke
@@ -3965,6 +4145,16 @@
 			(type default)
 		)
 		(uuid "3b2c67f5-81c4-41ae-a968-a20aaf8ec55e")
+	)
+	(wire
+		(pts
+			(xy 152.4 144.78) (xy 152.4 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b528900-2f4d-4d1e-9aba-380d0c69a0db")
 	)
 	(wire
 		(pts
@@ -4208,6 +4398,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 165.1) (xy 143.51 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf6d9f0-b5c8-40ec-88d7-bac51296b5e1")
+	)
+	(wire
+		(pts
 			(xy 265.43 74.93) (xy 267.97 74.93)
 		)
 		(stroke
@@ -4225,6 +4425,16 @@
 			(type default)
 		)
 		(uuid "5d536059-1e2d-4d71-bfac-fcad78a9e6ac")
+	)
+	(wire
+		(pts
+			(xy 143.51 156.21) (xy 143.51 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8e79ff-4791-4673-ac1e-e8dae90e0003")
 	)
 	(wire
 		(pts
@@ -4668,6 +4878,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 165.1) (xy 161.29 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d357ff6-b0fa-478f-b38b-66b27085aad4")
+	)
+	(wire
+		(pts
 			(xy 157.48 59.69) (xy 157.48 76.2)
 		)
 		(stroke
@@ -4855,6 +5075,16 @@
 			(type default)
 		)
 		(uuid "b137923a-918d-4339-aaef-30caded4277d")
+	)
+	(wire
+		(pts
+			(xy 161.29 156.21) (xy 161.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1766b92-85c8-4bc2-a0b9-c5e8cae1061d")
 	)
 	(wire
 		(pts
@@ -5138,6 +5368,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 146.05) (xy 143.51 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deec42ec-7efb-401c-ac16-30359da48571")
+	)
+	(wire
+		(pts
 			(xy 77.47 66.04) (xy 77.47 64.77)
 		)
 		(stroke
@@ -5235,6 +5475,16 @@
 			(type default)
 		)
 		(uuid "ebe9ba82-7f05-4c18-956a-ddc17c936987")
+	)
+	(wire
+		(pts
+			(xy 161.29 144.78) (xy 161.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3571b23-02ca-4409-adb3-c94dcb97cc81")
 	)
 	(wire
 		(pts
@@ -5742,6 +5992,18 @@
 		)
 		(uuid "1c734081-6a35-4eaa-80f7-51121adfbcc1")
 	)
+	(hierarchical_label "ERROR_LED"
+		(shape output)
+		(at 152.4 144.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "266f94a1-6778-45b5-97d5-f3772fff1d75")
+	)
 	(hierarchical_label "Encoder_B"
 		(shape input)
 		(at 104.14 101.6 0)
@@ -5774,6 +6036,18 @@
 			(justify left)
 		)
 		(uuid "47bbfa22-a28d-406e-a259-7053af5e2b78")
+	)
+	(hierarchical_label "RUN_LED"
+		(shape output)
+		(at 143.51 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "4df0c4b1-84d2-4a1c-bf40-41d3cd419822")
 	)
 	(hierarchical_label "Encoder_En"
 		(shape output)
@@ -6062,6 +6336,18 @@
 			(justify left)
 		)
 		(uuid "e498f23d-938e-4d92-a84f-a2ecf4b8197b")
+	)
+	(hierarchical_label "ESTOP_LED"
+		(shape output)
+		(at 161.29 144.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "eb8d93fc-551a-4ef0-8a4a-5a7136282212")
 	)
 	(hierarchical_label "PWM_CL"
 		(shape output)
@@ -7004,6 +7290,151 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 143.51 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a3c611b-090d-4e20-aa7d-61b9d90deaec")
+		(property "Reference" "#PWR0125"
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 143.51 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 143.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5da6f862-f9d5-46db-828f-3eb9dc823910")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a57ab20-9608-494c-8428-bdfc1e98ead4")
+		(property "Reference" "D14"
+			(at 165.1 161.6074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 165.1 164.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "426f817b-4599-4170-8148-e0787b32d471")
+		)
+		(pin "1"
+			(uuid "84c8cbca-c815-4cd8-b02c-c33dd0ebee69")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8201,6 +8632,72 @@
 			(project ""
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 161.29 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61bdc1ea-8006-4e16-bba7-4b21023cc817")
+		(property "Reference" "#PWR0127"
+			(at 161.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 161.29 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 161.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d100ffae-96c7-46bf-b022-3aedebb2a069")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -9597,6 +10094,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 161.29 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0efd1b8-d2e0-4d1d-96a0-4a2d5373fc08")
+		(property "Reference" "R51"
+			(at 157.988 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 157.734 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FOC_Private:R_0805_Private"
+			(at 163.068 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f80b262-4b1b-417d-8004-c771e8565661")
+		)
+		(pin "1"
+			(uuid "78100549-d34f-4ff9-9c02-e20856033cc8")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 105.41 29.21 0)
 		(unit 1)
@@ -9667,6 +10231,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 143.51 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b45f98e1-da8b-49e0-b1bb-06f38d639d9a")
+		(property "Reference" "D12"
+			(at 147.32 161.6074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 147.32 164.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "beaf9299-9dce-49c2-8c4a-665e4cb31301")
+		)
+		(pin "1"
+			(uuid "44fe05a0-e103-47ec-b4f1-49e83c64a706")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 45.72 29.21 0)
 		(unit 1)
@@ -9731,6 +10374,72 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 152.4 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8588837-3121-40fd-a891-682cad3ee331")
+		(property "Reference" "#PWR0126"
+			(at 152.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 152.4 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b2d2be8-1d68-444e-9e94-b4d1320ab174")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -10070,6 +10779,85 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 152.4 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c625726a-0dbf-45ba-91da-c63d23c4b3dc")
+		(property "Reference" "D13"
+			(at 156.21 161.6074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 156.21 164.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "816a62c8-675f-46e5-b737-01b7703b9683")
+		)
+		(pin "1"
+			(uuid "7f913764-2eda-4783-9805-a64fb31f1a8f")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -10545,6 +11333,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 143.51 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6e5d7f2-94dd-41cb-921d-6b28091447c6")
+		(property "Reference" "R49"
+			(at 140.208 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 139.954 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FOC_Private:R_0805_Private"
+			(at 145.288 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5028c842-f79a-4b90-835b-db7724211761")
+		)
+		(pin "1"
+			(uuid "a80aaba7-2f7b-46fe-92e8-aa1b06fe4132")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 199.39 85.09 0)
 		(unit 1)
@@ -10818,6 +11673,73 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0d5d12e-79bd-41de-b102-5c19aaf532f6")
+		(property "Reference" "R50"
+			(at 149.098 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 148.844 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FOC_Private:R_0805_Private"
+			(at 154.178 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14d8ece1-7d28-4315-9ca6-2599171978d5")
+		)
+		(pin "1"
+			(uuid "c3b90a04-ab41-463b-8fb2-acbc1bdaae92")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/4ae57f05-2ce8-4161-8702-8e3c5b02b253"
+					(reference "R50")
 					(unit 1)
 				)
 			)
