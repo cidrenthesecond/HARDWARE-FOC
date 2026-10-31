@@ -2337,7 +2337,7 @@
 		(uuid "2bc92775-65b2-4089-b0d3-71624e811d77")
 	)
 	(no_connect
-		(at 55.88 106.68)
+		(at 41.91 105.41)
 		(uuid "3724f58b-e69f-4755-aaa0-dbf5ab264c6e")
 	)
 	(no_connect
@@ -2353,7 +2353,7 @@
 		(uuid "514a2d69-1134-4a91-8ede-47948cf723b6")
 	)
 	(no_connect
-		(at 59.69 106.68)
+		(at 45.72 105.41)
 		(uuid "5da6bb10-b6ee-4374-9266-dc787f17251d")
 	)
 	(no_connect
@@ -2390,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 105.41) (xy 52.07 106.68)
+			(xy 38.1 104.14) (xy 38.1 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2510,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 105.41) (xy 48.26 106.68)
+			(xy 34.29 104.14) (xy 34.29 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 114.3) (xy 44.45 114.3)
+			(xy 26.67 113.03) (xy 30.48 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 118.11) (xy 44.45 118.11)
+			(xy 26.67 116.84) (xy 30.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3050,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 119.38) (xy 40.64 118.11)
+			(xy 26.67 118.11) (xy 26.67 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3189,7 +3189,7 @@
 		(uuid "6f8aa03b-aaa9-4672-bacf-d3dca823e85b")
 	)
 	(label "B"
-		(at 52.07 105.41 0)
+		(at 38.1 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3199,7 +3199,7 @@
 		(uuid "b0e3b061-48f2-4480-8666-7bef7ed6d8b2")
 	)
 	(label "A"
-		(at 48.26 105.41 0)
+		(at 34.29 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3395,7 +3395,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 40.64 119.38 0)
+		(at 26.67 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3404,7 +3404,7 @@
 		(fields_autoplaced yes)
 		(uuid "14e50ef0-e931-4009-9898-79254d16d2c3")
 		(property "Reference" "#PWR0106"
-			(at 40.64 125.73 0)
+			(at 26.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3413,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 40.6399 123.19 90)
+			(at 26.6699 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 119.38 0)
+			(at 26.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 119.38 0)
+			(at 26.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3440,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 40.64 119.38 0)
+			(at 26.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3449,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 40.64 119.38 0)
+			(at 26.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3563,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 64.008 49.53 90)
 			(effects
 				(font
@@ -3721,7 +3721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 64.008 69.85 90)
 			(effects
 				(font
@@ -4199,7 +4199,7 @@
 	)
 	(symbol
 		(lib_id "power:VCCQ")
-		(at 40.64 114.3 0)
+		(at 26.67 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4208,7 +4208,7 @@
 		(fields_autoplaced yes)
 		(uuid "72a2a55c-0c59-46b6-9455-fa4ee649763a")
 		(property "Reference" "#PWR0105"
-			(at 40.64 118.11 0)
+			(at 26.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4217,7 @@
 			)
 		)
 		(property "Value" "VCC_ISO"
-			(at 40.64 109.22 0)
+			(at 26.67 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 114.3 0)
+			(at 26.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 114.3 0)
+			(at 26.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 40.64 114.3 0)
+			(at 26.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4252,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 40.64 114.3 0)
+			(at 26.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 64.008 59.69 90)
 			(effects
 				(font
@@ -4367,7 +4367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 82.55 39.0652 0)
 			(effects
 				(font
@@ -4434,7 +4434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 105.41 51.7652 0)
 			(effects
 				(font
@@ -4651,7 +4651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 152.4 54.3052 0)
 			(effects
 				(font
@@ -4998,7 +4998,7 @@
 	)
 	(symbol
 		(lib_id "FOC:SRV05-4")
-		(at 55.88 119.38 0)
+		(at 41.91 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5006,7 +5006,7 @@
 		(dnp no)
 		(uuid "dfb36f28-0d80-46fa-983b-c9114e4d1963")
 		(property "Reference" "U13"
-			(at 50.546 125.222 0)
+			(at 36.576 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5015,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 50.546 122.682 0)
+			(at 36.576 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5024,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 60.198 96.012 0)
+			(at 46.228 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5033,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 56.642 97.79 0)
+			(at 42.672 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5042,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
-			(at 55.118 93.218 0)
+			(at 41.148 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)

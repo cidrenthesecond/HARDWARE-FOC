@@ -1227,7 +1227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 80.01 45.4152 0)
 			(effects
 				(font
@@ -1360,7 +1360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 73.66 65.278 90)
 			(effects
 				(font

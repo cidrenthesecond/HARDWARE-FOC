@@ -6123,7 +6123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 202.438 73.66 90)
 			(effects
 				(font
@@ -6324,7 +6324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 80.9752 33.02 0)
 			(effects
 				(font
@@ -6591,7 +6591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 25.0952 33.02 0)
 			(effects
 				(font
@@ -6794,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 205.74 120.3452 0)
 			(effects
 				(font
@@ -6864,7 +6864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 131.572 27.94 90)
 			(effects
 				(font
@@ -7066,7 +7066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 69.5452 33.02 0)
 			(effects
 				(font
@@ -7403,7 +7403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 215.138 73.66 90)
 			(effects
 				(font
@@ -8055,7 +8055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 218.44 150.368 90)
 			(effects
 				(font
@@ -8122,7 +8122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 218.44 154.178 90)
 			(effects
 				(font
@@ -8255,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 242.062 69.85 90)
 			(effects
 				(font
@@ -8322,7 +8322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 220.472 73.66 90)
 			(effects
 				(font
@@ -8458,7 +8458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 183.642 38.1 90)
 			(effects
 				(font
@@ -8528,7 +8528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 35.2552 33.02 0)
 			(effects
 				(font
@@ -8796,7 +8796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSTNE16M0V530000R0"
+		(property "Footprint" "CSTNE8:CSTNE16M0V530000R0"
 			(at 240.03 205.41 0)
 			(effects
 				(font
@@ -9119,7 +9119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 106.3752 33.02 0)
 			(effects
 				(font
@@ -9189,7 +9189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 46.6852 33.02 0)
 			(effects
 				(font
@@ -9392,7 +9392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 94.9452 33.02 0)
 			(effects
 				(font
@@ -9462,7 +9462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 183.642 27.94 90)
 			(effects
 				(font
@@ -9595,7 +9595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 253.492 69.85 90)
 			(effects
 				(font
@@ -9662,7 +9662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 263.652 69.85 90)
 			(effects
 				(font
@@ -9729,7 +9729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 218.44 143.002 90)
 			(effects
 				(font
@@ -9931,7 +9931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 58.1152 33.02 0)
 			(effects
 				(font
@@ -10277,7 +10277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 218.44 142.748 90)
 			(effects
 				(font
@@ -10345,7 +10345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 213.36 105.7148 0)
 			(effects
 				(font

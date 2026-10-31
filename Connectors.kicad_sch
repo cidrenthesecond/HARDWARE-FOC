@@ -2366,223 +2366,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:PESD3V3L4UG"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD3V3L4UG"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?353*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PESD3V3L4UG_0_1"
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 0) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy -1.016 0) (xy 1.016 -1.016) (xy 1.016 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PESD3V3L4UG_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PESD3V3L4UG_2_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PESD3V3L4UG_3_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "K3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PESD3V3L4UG_4_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "K4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDD"
 			(power)
 			(pin_numbers
@@ -2827,10 +2610,6 @@
 		(uuid "fe254e2f-9bf6-44de-a51e-f748c503ce84")
 	)
 	(no_connect
-		(at 134.62 96.52)
-		(uuid "23ebed70-4718-4b7f-9fcf-97db1625cc5f")
-	)
-	(no_connect
 		(at 45.72 99.06)
 		(uuid "4abab69f-5bcc-4e33-90cb-abf6121e8650")
 	)
@@ -2861,16 +2640,6 @@
 	(no_connect
 		(at 45.72 104.14)
 		(uuid "f8541541-f1cc-4475-bb30-146ae7215041")
-	)
-	(wire
-		(pts
-			(xy 133.35 72.39) (xy 134.62 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0113d4ca-d00b-449e-b2f2-cbf30130db9e")
 	)
 	(wire
 		(pts
@@ -2954,13 +2723,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 92.71) (xy 134.62 92.71)
+			(xy 125.73 95.25) (xy 127 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "181678fa-d69f-4a06-b32f-08e81c91d90c")
+		(uuid "1738cc9d-edb7-4c7b-8458-f24abd81ec03")
 	)
 	(wire
 		(pts
@@ -3034,6 +2803,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc0cfe4-0e26-45fc-bb2a-380088bdc33a")
+	)
+	(wire
+		(pts
 			(xy 41.91 81.28) (xy 45.72 81.28)
 		)
 		(stroke
@@ -3081,16 +2860,6 @@
 			(type default)
 		)
 		(uuid "341cc863-82d7-4004-8623-2f6b0f172e87")
-	)
-	(wire
-		(pts
-			(xy 133.35 77.47) (xy 134.62 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3633e9f6-24bf-479a-bf83-e784d8bb191c")
 	)
 	(wire
 		(pts
@@ -3144,16 +2913,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 85.09) (xy 134.62 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45938800-9c3c-4c4d-a370-15f220620f70")
-	)
-	(wire
-		(pts
 			(xy 58.42 78.74) (xy 59.69 78.74)
 		)
 		(stroke
@@ -3161,16 +2920,6 @@
 			(type default)
 		)
 		(uuid "48683bae-5c55-4046-ba37-18322944e5e6")
-	)
-	(wire
-		(pts
-			(xy 133.35 67.31) (xy 134.62 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4978fca2-806c-44e7-b0a8-7d579cad41f1")
 	)
 	(wire
 		(pts
@@ -3374,6 +3123,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7caa5088-700b-4a64-8f83-d3657d458158")
+	)
+	(wire
+		(pts
+			(xy 125.73 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f248ef9-4a0a-439e-a8ee-a24fb5cf23a8")
+	)
+	(wire
+		(pts
 			(xy 213.36 119.38) (xy 213.36 118.11)
 		)
 		(stroke
@@ -3434,6 +3203,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 66.04) (xy 127 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93593392-37c3-422a-aa4d-a98f9adddae6")
+	)
+	(wire
+		(pts
 			(xy 58.42 71.12) (xy 59.69 71.12)
 		)
 		(stroke
@@ -3464,6 +3243,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e48b6a-ec56-42bf-8d86-90c12767e790")
+	)
+	(wire
+		(pts
 			(xy 58.42 88.9) (xy 59.69 88.9)
 		)
 		(stroke
@@ -3491,6 +3280,16 @@
 			(type default)
 		)
 		(uuid "ab364e85-dd92-4293-8740-8f2d7834573e")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 127 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae244131-1113-4844-a7bd-fb65769218c6")
 	)
 	(wire
 		(pts
@@ -3531,16 +3330,6 @@
 			(type default)
 		)
 		(uuid "b43c5310-2973-499f-866e-35b094ea6794")
-	)
-	(wire
-		(pts
-			(xy 133.35 88.9) (xy 134.62 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ef4d60-fcea-4649-9b79-b8873874bd6f")
 	)
 	(wire
 		(pts
@@ -3621,16 +3410,6 @@
 			(type default)
 		)
 		(uuid "cc55a372-2827-4524-b8c9-792ae234f22f")
-	)
-	(wire
-		(pts
-			(xy 133.35 62.23) (xy 134.62 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc791db4-7315-4d40-aab3-8dadc72573b5")
 	)
 	(wire
 		(pts
@@ -7126,17 +6905,6 @@
 	)
 	(hierarchical_label "PWM_AH"
 		(shape input)
-		(at 133.35 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "046247b4-8d14-45e1-922b-a765fd35ada6")
-	)
-	(hierarchical_label "PWM_AH"
-		(shape input)
 		(at 41.91 66.04 180)
 		(effects
 			(font
@@ -7145,17 +6913,6 @@
 			(justify right)
 		)
 		(uuid "07c0f8b7-9e04-4f3f-a87d-fd9e81a5c1f3")
-	)
-	(hierarchical_label "PWM_AL"
-		(shape input)
-		(at 133.35 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21ad7b16-0347-4966-8b6b-46bcdf2a2781")
 	)
 	(hierarchical_label "heatsinkTemperature"
 		(shape output)
@@ -7167,6 +6924,28 @@
 			(justify left)
 		)
 		(uuid "21f78fb1-f8b5-4715-93b9-255f2cf9a876")
+	)
+	(hierarchical_label "PWM_AH"
+		(shape input)
+		(at 125.73 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29280cee-c3f8-41a7-ba64-8586f6bcb0d0")
+	)
+	(hierarchical_label "PWM_BH"
+		(shape input)
+		(at 125.73 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a06ecd0-a9c9-4bad-a42f-29c1ca5dc97f")
 	)
 	(hierarchical_label "PWM_CL"
 		(shape input)
@@ -7223,6 +7002,17 @@
 		)
 		(uuid "5c4bcc55-a67d-46f5-b92a-c4f7e8025861")
 	)
+	(hierarchical_label "PWM_CL"
+		(shape input)
+		(at 125.73 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "769d5093-0eaa-4e7c-92fe-f2d053abeeef")
+	)
 	(hierarchical_label "Current_B"
 		(shape output)
 		(at 41.91 83.82 180)
@@ -7233,28 +7023,6 @@
 			(justify right)
 		)
 		(uuid "79ae5513-fbb5-46cb-aaaa-5e9104c488b3")
-	)
-	(hierarchical_label "PWM_CL"
-		(shape input)
-		(at 133.35 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b2ec6d5-65ac-4105-ae22-a38c29c5017b")
-	)
-	(hierarchical_label "PWM_CH"
-		(shape input)
-		(at 133.35 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d4b9677-1b4d-4f79-b292-ca980a880fdd")
 	)
 	(hierarchical_label "PWM_CH"
 		(shape input)
@@ -7277,17 +7045,6 @@
 			(justify right)
 		)
 		(uuid "92087a0d-63f9-4181-80c3-25bb11ca0648")
-	)
-	(hierarchical_label "PWM_BH"
-		(shape input)
-		(at 133.35 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9aedb951-9460-4179-899b-6b268082aeed")
 	)
 	(hierarchical_label "Current_C"
 		(shape output)
@@ -7322,6 +7079,28 @@
 		)
 		(uuid "c4f32b44-1f91-498d-ad1c-db1fc4c2cfd9")
 	)
+	(hierarchical_label "Disable_Drive"
+		(shape input)
+		(at 125.73 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "debf27f7-5948-4cdc-ae69-4653070d46ee")
+	)
+	(hierarchical_label "PWM_BL"
+		(shape input)
+		(at 125.73 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3206e74-29d2-4d92-98be-e40e0a442d40")
+	)
 	(hierarchical_label "busVoltage"
 		(shape output)
 		(at 59.69 78.74 0)
@@ -7333,27 +7112,27 @@
 		)
 		(uuid "e9dfd56b-9c99-436a-b170-ae048487ea9d")
 	)
-	(hierarchical_label "PWM_BL"
+	(hierarchical_label "PWM_CH"
 		(shape input)
-		(at 133.35 85.09 180)
+		(at 125.73 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f437285d-1345-4e46-b6bb-67ddbead7a32")
+		(uuid "eec96613-bc8a-4177-acbc-c61bc3c048e4")
 	)
-	(hierarchical_label "Disable_Drive"
+	(hierarchical_label "PWM_AL"
 		(shape input)
-		(at 133.35 62.23 180)
+		(at 125.73 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f4f14478-f893-4da3-9b77-6e2d90cfd4f8")
+		(uuid "f8de0758-af58-40f1-bf44-0d8305319062")
 	)
 	(symbol
 		(lib_id "power:GNDD")
@@ -7489,85 +7268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD3V3L4UG")
-		(at 137.16 88.9 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "093a8d89-330e-49d5-93bc-1d65b0b5a410")
-		(property "Reference" "D9"
-			(at 145.542 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD3V3L4UG"
-			(at 139.7 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 137.16 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
-			(at 137.16 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3dcef8bd-cea5-4e63-9c2d-649ffba5f76d")
-		)
-		(pin "1"
-			(uuid "c03056fb-bafd-4451-b918-a4c8370ce6a8")
-		)
-		(pin "3"
-			(uuid "ece56867-8a0f-417e-898d-b26b76661ccd")
-		)
-		(pin "4"
-			(uuid "8202ed6d-5c32-45ed-baf9-a4b5a952182a")
-		)
-		(pin "5"
-			(uuid "65b31e1f-cb41-42c3-930f-e455463585ab")
-		)
-		(instances
-			(project ""
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
-					(reference "D9")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 173.99 27.94 0)
 		(unit 1)
@@ -7628,6 +7328,76 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FOC:ESD3V3CA")
+		(at 130.81 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "105ab33e-0d77-41a4-8570-0f2673cb27a7")
+		(property "Reference" "D8"
+			(at 142.494 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD3V3CA"
+			(at 145.542 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.302 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dioda: TVS drabinka; 4,5V; 5A; 200W; podwójna,wspólna anoda; ESD"
+			(at 132.334 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39b6d7c7-63b1-45ab-acc0-ccb389df0714")
+		)
+		(pin "1"
+			(uuid "9fc097ad-2811-4744-a625-00f84d032847")
+		)
+		(pin "3"
+			(uuid "bd42bd20-7198-46d8-90ba-2eab59c2794d")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7949,6 +7719,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 134.62 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f1807c9-d8f3-40cd-88ed-0085eb6a3398")
+		(property "Reference" "#PWR0107"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 138.176 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "446bedb4-e58d-413a-8e58-2af8e157fbbc")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMF24A")
 		(at 205.74 97.79 270)
 		(unit 1)
@@ -8019,85 +7855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD3V3L4UG")
-		(at 137.16 92.71 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "269955ce-aa1a-4e2c-b729-81c5d66679d1")
-		(property "Reference" "D9"
-			(at 145.542 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD3V3L4UG"
-			(at 139.7 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 137.16 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 137.16 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
-			(at 137.16 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3dcef8bd-cea5-4e63-9c2d-649ffba5f76e")
-		)
-		(pin "1"
-			(uuid "c03056fb-bafd-4451-b918-a4c8370ce6a9")
-		)
-		(pin "3"
-			(uuid "ece56867-8a0f-417e-898d-b26b76661cce")
-		)
-		(pin "4"
-			(uuid "8202ed6d-5c32-45ed-baf9-a4b5a952182b")
-		)
-		(pin "5"
-			(uuid "65b31e1f-cb41-42c3-930f-e455463585ac")
-		)
-		(instances
-			(project ""
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
-					(reference "D9")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 60.96 69.85 90)
 		(unit 1)
@@ -8159,147 +7916,6 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 139.7 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c0c4113-47ee-4382-986c-ac46a769917b")
-		(property "Reference" "#PWR0107"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 143.256 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 139.7 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5184e922-8457-4b89-9d72-f331c82c5e95")
-		)
-		(instances
-			(project "FOC_Driver"
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:PESD3V3L4UG")
-		(at 137.16 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dc12bba-cc6e-4e25-8ba5-12357a1bdc7d")
-		(property "Reference" "D9"
-			(at 145.542 84.836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PESD3V3L4UG"
-			(at 148.082 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 137.16 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 137.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
-			(at 137.16 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3dcef8bd-cea5-4e63-9c2d-649ffba5f76f")
-		)
-		(pin "1"
-			(uuid "c03056fb-bafd-4451-b918-a4c8370ce6aa")
-		)
-		(pin "3"
-			(uuid "ece56867-8a0f-417e-898d-b26b76661ccf")
-		)
-		(pin "4"
-			(uuid "8202ed6d-5c32-45ed-baf9-a4b5a952182c")
-		)
-		(pin "5"
-			(uuid "65b31e1f-cb41-42c3-930f-e455463585ad")
-		)
-		(instances
-			(project ""
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8484,84 +8100,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD3V3L4UG")
-		(at 137.16 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ee7985c-e0c4-4a52-9a5b-c2152513b19e")
-		(property "Reference" "D8"
-			(at 145.542 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD3V3L4UG"
-			(at 147.574 75.946 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 137.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b6a674f8-6c56-4e44-8496-1b9c4ac5a66b")
-		)
-		(pin "1"
-			(uuid "585fcd77-99c7-417a-911c-67cf9aeb75eb")
-		)
-		(pin "2"
-			(uuid "5914be60-e795-4f35-a255-7c020b64393c")
-		)
-		(pin "3"
-			(uuid "0d43bd05-681c-4928-8c6a-11c335d406c0")
-		)
-		(pin "4"
-			(uuid "e3221cd3-adb6-43fa-bf61-ec203151e32a")
-		)
-		(instances
-			(project ""
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:SMF24A")
 		(at 185.42 80.01 270)
 		(unit 1)
@@ -8626,71 +8164,6 @@
 			(project ""
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 139.7 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47f7218a-c2b0-4554-aa2f-71b56415389a")
-		(property "Reference" "#PWR0108"
-			(at 146.05 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 143.256 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3967201-299d-4f1f-9734-cb5162546870")
-		)
-		(instances
-			(project "FOC_Driver"
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -8833,16 +8306,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD3V3L4UG")
-		(at 137.16 96.52 0)
-		(unit 4)
+		(lib_id "FOC:ESD3V3CA")
+		(at 130.81 80.01 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4f14adcb-520a-423a-a6cb-fb65848061b4")
+		(uuid "4e8feb75-3380-4655-8df7-33c0f0f9e2ca")
 		(property "Reference" "D9"
-			(at 145.542 98.552 90)
+			(at 140.462 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,18 +8323,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD3V3L4UG"
-			(at 139.7 97.7899 0)
+		(property "Value" "ESD3V3CA"
+			(at 140.462 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 137.16 91.44 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,8 +8341,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 137.16 101.6 0)
+		(property "Datasheet" ""
+			(at 130.302 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,35 +8350,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
-			(at 137.16 96.52 0)
+		(property "Description" "Dioda: TVS drabinka; 4,5V; 5A; 200W; podwójna,wspólna anoda; ESD"
+			(at 132.334 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "3dcef8bd-cea5-4e63-9c2d-649ffba5f770")
-		)
-		(pin "1"
-			(uuid "c03056fb-bafd-4451-b918-a4c8370ce6ab")
 		)
 		(pin "3"
-			(uuid "ece56867-8a0f-417e-898d-b26b76661cd0")
+			(uuid "52d3009f-6d30-4fa9-aaf6-ee0632f34eee")
 		)
-		(pin "4"
-			(uuid "8202ed6d-5c32-45ed-baf9-a4b5a952182d")
+		(pin "2"
+			(uuid "b6337a61-ebcd-4a80-92fb-3e194fc2b97e")
 		)
-		(pin "5"
-			(uuid "65b31e1f-cb41-42c3-930f-e455463585ae")
+		(pin "1"
+			(uuid "724a95cb-8fc1-4fcd-b2a1-a908557126d6")
 		)
 		(instances
 			(project ""
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
 					(reference "D9")
-					(unit 4)
+					(unit 2)
 				)
 			)
 		)
@@ -9151,6 +8617,77 @@
 		)
 	)
 	(symbol
+		(lib_id "FOC:ESD3V3CA")
+		(at 130.81 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6367abdb-2ac0-4597-a258-c806d9f1315b")
+		(property "Reference" "D9"
+			(at 142.494 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD3V3CA"
+			(at 142.494 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.302 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dioda: TVS drabinka; 4,5V; 5A; 200W; podwójna,wspólna anoda; ESD"
+			(at 132.334 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "52d3009f-6d30-4fa9-aaf6-ee0632f34eee")
+		)
+		(pin "2"
+			(uuid "b6337a61-ebcd-4a80-92fb-3e194fc2b97e")
+		)
+		(pin "1"
+			(uuid "724a95cb-8fc1-4fcd-b2a1-a908557126d6")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 179.07 54.61 0)
 		(unit 1)
@@ -9211,6 +8748,210 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FOC:ESD3V3CA")
+		(at 130.81 88.9 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7495297f-8b2b-40e0-a212-870fc65a80ee")
+		(property "Reference" "D10"
+			(at 140.716 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD3V3CA"
+			(at 140.716 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.302 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dioda: TVS drabinka; 4,5V; 5A; 200W; podwójna,wspólna anoda; ESD"
+			(at 132.334 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8064ed7a-fc34-480e-a0a3-64da3b5e5b1b")
+		)
+		(pin "3"
+			(uuid "6bd2851b-979a-4948-9fad-1b6aa8e80178")
+		)
+		(pin "2"
+			(uuid "3ccbedfb-67d7-459d-aac6-bcc8c777ab1b")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "D10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 134.62 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7996f6f8-785b-46d6-9d7e-85874a4990fa")
+		(property "Reference" "#PWR0108"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 138.176 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a848c968-474c-45a1-a38f-8284f4963805")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 134.62 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ef3525f-9d6d-41f7-93da-881e0ec03d35")
+		(property "Reference" "#PWR0118"
+			(at 140.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 138.176 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c8ba43b-b7d5-4aa2-b4bb-67e943cf2e56")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -9278,85 +9019,6 @@
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
 					(reference "#PWR096")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:PESD3V3L4UG")
-		(at 137.16 77.47 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a50e157-9458-4faf-9ea7-2fa590a46ebd")
-		(property "Reference" "D8"
-			(at 145.542 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD3V3L4UG"
-			(at 138.4299 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
-			(at 137.16 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 137.16 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b6a674f8-6c56-4e44-8496-1b9c4ac5a66c")
-		)
-		(pin "1"
-			(uuid "585fcd77-99c7-417a-911c-67cf9aeb75ec")
-		)
-		(pin "2"
-			(uuid "5914be60-e795-4f35-a255-7c020b64393d")
-		)
-		(pin "3"
-			(uuid "0d43bd05-681c-4928-8c6a-11c335d406c1")
-		)
-		(pin "4"
-			(uuid "e3221cd3-adb6-43fa-bf61-ec203151e32b")
-		)
-		(instances
-			(project ""
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
-					(reference "D8")
-					(unit 4)
 				)
 			)
 		)
@@ -9501,6 +9163,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
+		(at 134.62 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5c54abb-cb2e-4daa-aaec-d412cb25e69c")
+		(property "Reference" "#PWR0119"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 138.176 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d14fdf8f-737b-4d9f-9f79-3904b39976de")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
 		(at 185.42 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9566,16 +9294,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD3V3L4UG")
-		(at 137.16 67.31 0)
+		(lib_id "FOC:ESD3V3CA")
+		(at 130.81 69.85 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b9d5f7a2-79de-4e33-8689-8822cce8921c")
+		(uuid "c210f8ad-0ea7-404d-8754-164861c131a8")
 		(property "Reference" "D8"
-			(at 145.542 68.834 90)
+			(at 140.716 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,8 +9311,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD3V3L4UG"
-			(at 138.4299 64.77 90)
+		(property "Value" "ESD3V3CA"
+			(at 137.16 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,8 +9321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
-			(at 137.16 62.23 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,8 +9330,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 137.16 72.39 0)
+		(property "Datasheet" ""
+			(at 130.302 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,29 +9339,23 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
-			(at 137.16 67.31 0)
+		(property "Description" "Dioda: TVS drabinka; 4,5V; 5A; 200W; podwójna,wspólna anoda; ESD"
+			(at 132.334 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "5"
-			(uuid "b6a674f8-6c56-4e44-8496-1b9c4ac5a66d")
-		)
-		(pin "1"
-			(uuid "585fcd77-99c7-417a-911c-67cf9aeb75ed")
 		)
 		(pin "2"
-			(uuid "5914be60-e795-4f35-a255-7c020b64393e")
+			(uuid "39b6d7c7-63b1-45ab-acc0-ccb389df0714")
+		)
+		(pin "1"
+			(uuid "9fc097ad-2811-4744-a625-00f84d032847")
 		)
 		(pin "3"
-			(uuid "0d43bd05-681c-4928-8c6a-11c335d406c2")
-		)
-		(pin "4"
-			(uuid "e3221cd3-adb6-43fa-bf61-ec203151e32c")
+			(uuid "bd42bd20-7198-46d8-90ba-2eab59c2794d")
 		)
 		(instances
 			(project ""
@@ -9873,6 +9595,78 @@
 		)
 	)
 	(symbol
+		(lib_id "FOC:ESD3V3CA")
+		(at 130.81 99.06 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6c03355-b24d-4e37-aa66-820acbbe5b94")
+		(property "Reference" "D11"
+			(at 139.192 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD3V3CA"
+			(at 139.192 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.302 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dioda: TVS drabinka; 4,5V; 5A; 200W; podwójna,wspólna anoda; ESD"
+			(at 132.334 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c09bd68-ec8d-4af2-bb6b-15ad4adb7a9c")
+		)
+		(pin "1"
+			(uuid "97343780-be08-45ee-859b-23d8a9ea261f")
+		)
+		(pin "2"
+			(uuid "b762e871-4def-46e6-afa3-53ad71699b27")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "D11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FOC:Screw_Terminal_01x14_splited")
 		(at 191.77 72.39 0)
 		(unit 4)
@@ -10039,6 +9833,148 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FOC:ESD3V3CA")
+		(at 130.81 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e258a5f0-d50a-4955-ab44-424769361afa")
+		(property "Reference" "D11"
+			(at 141.732 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD3V3CA"
+			(at 141.478 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.302 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dioda: TVS drabinka; 4,5V; 5A; 200W; podwójna,wspólna anoda; ESD"
+			(at 132.334 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c09bd68-ec8d-4af2-bb6b-15ad4adb7a9c")
+		)
+		(pin "1"
+			(uuid "97343780-be08-45ee-859b-23d8a9ea261f")
+		)
+		(pin "2"
+			(uuid "b762e871-4def-46e6-afa3-53ad71699b27")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FOC:ESD3V3CA")
+		(at 130.81 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e38c29b9-cb07-49e0-bee0-a0c4b95ae2b1")
+		(property "Reference" "D10"
+			(at 143.256 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD3V3CA"
+			(at 130.81 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 130.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.302 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dioda: TVS drabinka; 4,5V; 5A; 200W; podwójna,wspólna anoda; ESD"
+			(at 132.334 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8064ed7a-fc34-480e-a0a3-64da3b5e5b1b")
+		)
+		(pin "3"
+			(uuid "6bd2851b-979a-4948-9fad-1b6aa8e80178")
+		)
+		(pin "2"
+			(uuid "3ccbedfb-67d7-459d-aac6-bcc8c777ab1b")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -10486,85 +10422,6 @@
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
 					(reference "J7")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:PESD3V3L4UG")
-		(at 137.16 72.39 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe9b1da7-b268-40a4-9004-8bf9796ebff5")
-		(property "Reference" "D8"
-			(at 145.542 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD3V3L4UG"
-			(at 138.4299 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
-			(at 137.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353"
-			(at 137.16 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b6a674f8-6c56-4e44-8496-1b9c4ac5a66e")
-		)
-		(pin "1"
-			(uuid "585fcd77-99c7-417a-911c-67cf9aeb75ee")
-		)
-		(pin "2"
-			(uuid "5914be60-e795-4f35-a255-7c020b64393f")
-		)
-		(pin "3"
-			(uuid "0d43bd05-681c-4928-8c6a-11c335d406c3")
-		)
-		(pin "4"
-			(uuid "e3221cd3-adb6-43fa-bf61-ec203151e32d")
-		)
-		(instances
-			(project ""
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/6043d5f8-c012-4757-9969-51370d3f33f6"
-					(reference "D8")
-					(unit 3)
 				)
 			)
 		)
