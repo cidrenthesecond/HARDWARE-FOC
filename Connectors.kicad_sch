@@ -8850,13 +8850,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc4fca6d-1926-4fb4-9017-350683172b86")
+			(uuid "dc4fca6d-1926-4fb4-9017-350683172b87")
 		)
 		(pin "2"
-			(uuid "747ba16f-871b-4f67-a7dc-4d02cf3d5bee")
+			(uuid "747ba16f-871b-4f67-a7dc-4d02cf3d5bef")
 		)
 		(pin "3"
-			(uuid "1ccc3242-119e-461c-a4b3-755f7352ef57")
+			(uuid "1ccc3242-119e-461c-a4b3-755f7352ef58")
 		)
 		(instances
 			(project ""
