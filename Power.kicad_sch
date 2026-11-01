@@ -5,6 +5,311 @@
 	(uuid "39b59577-01f3-41ac-8194-dd8805dd9d88")
 	(paper "A5")
 	(lib_symbols
+		(symbol "AOD413A:AOD413A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AOD413A"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "AOD413A"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/res/datasheets/AOD413A.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trans MOSFET P-CH 40V 12A 3-Pin(2+Tab) DPAK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.6"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AOD413A"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AOD413A_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1102,304 +1407,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:ZXMP4A16G"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ZXMP4A16G"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-6.4A Id, -40V Vds, P-Channel MOSFET, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ZXMP4A16G_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ZXMP4A16G_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1764,18 +1771,6 @@
 		)
 	)
 	(junction
-		(at 49.53 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "258f4b1e-4b4f-490b-8c4f-7e75d40bbf66")
-	)
-	(junction
-		(at 78.74 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4289dac2-14d3-4f5b-a096-bed8feca0472")
-	)
-	(junction
 		(at 180.34 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1788,16 +1783,16 @@
 		(uuid "537b3580-37a7-4998-a852-be3c15f9813b")
 	)
 	(junction
+		(at 54.61 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ee77ccb-9f2a-450d-ae25-cf1d8731383b")
+	)
+	(junction
 		(at 168.91 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "751c0f85-2696-4dc6-be34-43b0527c0432")
-	)
-	(junction
-		(at 57.15 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8545d359-b010-4533-965c-84e4eef3ae7b")
 	)
 	(junction
 		(at 139.7 39.37)
@@ -1812,30 +1807,22 @@
 		(uuid "b7e9c27f-39b1-4baa-8de7-0c643eefe6e5")
 	)
 	(junction
+		(at 62.23 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0f21196-7ec9-4e75-81d2-b6109b66ed5e")
+	)
+	(junction
+		(at 78.74 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dac4f11e-be37-41b6-a6e5-95fca22f48d0")
+	)
+	(junction
 		(at 95.25 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8c03ba9-440c-4e22-8188-cf82f4920589")
-	)
-	(wire
-		(pts
-			(xy 54.61 39.37) (xy 57.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e5dfd6-d2d5-4bec-8707-bef805f006f7")
-	)
-	(wire
-		(pts
-			(xy 49.53 46.99) (xy 49.53 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c74c8f9-d353-4de0-b69f-9ce5e35f41b4")
 	)
 	(wire
 		(pts
@@ -1859,16 +1846,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 58.42) (xy 49.53 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cb04662-95fb-41d0-9f07-a5ffb49a2ad1")
-	)
-	(wire
-		(pts
 			(xy 78.74 39.37) (xy 82.55 39.37)
 		)
 		(stroke
@@ -1889,6 +1866,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 39.37) (xy 78.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd20cc0-a47d-45c8-b56b-5030dab0db1d")
+	)
+	(wire
+		(pts
+			(xy 54.61 49.53) (xy 54.61 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d3800e-0d71-4c5c-9bf3-f8805445c1e3")
+	)
+	(wire
+		(pts
 			(xy 132.08 36.83) (xy 132.08 39.37)
 		)
 		(stroke
@@ -1906,6 +1903,16 @@
 			(type default)
 		)
 		(uuid "3ef8ae36-9c85-46a4-802d-f3d5398876ec")
+	)
+	(wire
+		(pts
+			(xy 54.61 58.42) (xy 54.61 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5000d2f4-02d0-49d3-afaf-cfd8e99e91c7")
 	)
 	(wire
 		(pts
@@ -1939,16 +1946,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 39.37) (xy 57.15 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a7ea5ae-c26f-4d3e-bbf0-77f61d1da8bc")
-	)
-	(wire
-		(pts
 			(xy 34.29 39.37) (xy 44.45 39.37)
 		)
 		(stroke
@@ -1969,13 +1966,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 49.53 50.8)
+			(xy 59.69 39.37) (xy 62.23 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87e09f24-c363-4b19-9c56-4ea2728f0800")
+		(uuid "92482071-dda4-4a0d-9a72-f64325b51ebc")
 	)
 	(wire
 		(pts
@@ -1986,16 +1983,6 @@
 			(type default)
 		)
 		(uuid "98adb2e8-0512-432c-afd0-1e2d41da06d2")
-	)
-	(wire
-		(pts
-			(xy 78.74 39.37) (xy 57.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a11d1b2b-3d21-4317-867b-9eafe66495c1")
 	)
 	(wire
 		(pts
@@ -2029,13 +2016,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 48.26) (xy 57.15 49.53)
+			(xy 62.23 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc16fc01-9342-4682-b186-1b3ce42e3488")
+		(uuid "cd6e0d42-1c05-46ab-8900-c91e4160d11c")
 	)
 	(wire
 		(pts
@@ -2069,16 +2056,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 49.53) (xy 49.53 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8075a18-ae6a-41b4-bc7e-11edd4d18ee8")
-	)
-	(wire
-		(pts
 			(xy 132.08 39.37) (xy 139.7 39.37)
 		)
 		(stroke
@@ -2109,6 +2086,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 39.37) (xy 62.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ee2768-ea4d-48d6-8b8a-ec3057641b3e")
+	)
+	(wire
+		(pts
+			(xy 54.61 46.99) (xy 54.61 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9333d8b-c1fd-4ec4-ab23-ed02bf034815")
+	)
+	(wire
+		(pts
 			(xy 157.48 46.99) (xy 157.48 49.53)
 		)
 		(stroke
@@ -2116,6 +2113,16 @@
 			(type default)
 		)
 		(uuid "ef904bc1-42c2-4953-ad59-6fd20f734224")
+	)
+	(wire
+		(pts
+			(xy 62.23 48.26) (xy 62.23 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1770f7a-0cb9-4b11-a414-a49023c764bc")
 	)
 	(wire
 		(pts
@@ -2580,6 +2587,129 @@
 		)
 	)
 	(symbol
+		(lib_id "AOD413A:AOD413A")
+		(at 54.61 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29e81eee-c235-4784-889a-96b9c0e292fe")
+		(property "Reference" "Q10"
+			(at 52.07 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AOD413A"
+			(at 52.07 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AOD413A"
+			(at 153.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/res/datasheets/AOD413A.pdf"
+			(at 253.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 40V 12A 3-Pin(2+Tab) DPAK"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.6"
+			(at 453.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 553.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 653.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at 753.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AOD413A"
+			(at 853.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9577a59-a39e-4a5d-8116-5538c8e71af1")
+		)
+		(pin "3"
+			(uuid "af9a21c5-f34d-44c1-891d-eef8e7c0a17a")
+		)
+		(pin "2"
+			(uuid "707f186c-0efe-4001-b22f-39bd6f540eb1")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/9e9712b1-28dc-4627-8025-e4634456cce2"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 180.34 44.45 180)
 		(unit 1)
@@ -2929,7 +3059,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 54.61 0)
+		(at 54.61 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2938,7 +3068,7 @@
 		(fields_autoplaced yes)
 		(uuid "62270d92-1d5c-4fdb-81e0-870dcda99b4b")
 		(property "Reference" "R48"
-			(at 52.07 53.3399 0)
+			(at 57.15 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +3077,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 52.07 55.8799 0)
+			(at 57.15 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3086,7 @@
 			)
 		)
 		(property "Footprint" "FOC_Private:R_0805_Private"
-			(at 47.752 54.61 90)
+			(at 52.832 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 54.61 0)
+			(at 54.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3104,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 54.61 0)
+			(at 54.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3129,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZT52Bxx")
-		(at 57.15 44.45 270)
+		(at 62.23 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3008,7 +3138,7 @@
 		(fields_autoplaced yes)
 		(uuid "62b72ab5-99bf-4319-8910-4e8242b97e1a")
 		(property "Reference" "D11"
-			(at 59.69 43.1799 90)
+			(at 64.77 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3147,7 @@
 			)
 		)
 		(property "Value" "BZT52B-c12x"
-			(at 59.69 45.7199 90)
+			(at 64.77 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3156,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 52.705 44.45 0)
+			(at 57.785 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3165,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
-			(at 57.15 44.45 0)
+			(at 62.23 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +3174,7 @@
 			)
 		)
 		(property "Description" "500mW Zener Diode, SOD-123F"
-			(at 57.15 44.45 0)
+			(at 62.23 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3189,7 @@
 			(uuid "e3e1dc6c-7a92-4b6c-b2f5-9983c8062aeb")
 		)
 		(instances
-			(project ""
+			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/9e9712b1-28dc-4627-8025-e4634456cce2"
 					(reference "D11")
 					(unit 1)
@@ -3400,80 +3530,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:ZXMP4A16G")
-		(at 49.53 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1acb582-20cf-4922-90b4-a13e87b8952a")
-		(property "Reference" "Q9"
-			(at 49.53 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ZXMP4A16G"
-			(at 49.53 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 51.435 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf"
-			(at 53.34 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-6.4A Id, -40V Vds, P-Channel MOSFET, SOT-223"
-			(at 49.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2b29ebad-5cd9-463d-aff5-ab1fb387ee4c")
-		)
-		(pin "2"
-			(uuid "618dbb43-4eba-443d-b3f7-51b442eb0f28")
-		)
-		(pin "1"
-			(uuid "77cc4ff6-c284-4689-9953-0187e3e7c88e")
-		)
-		(instances
-			(project "FOC_Driver"
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/9e9712b1-28dc-4627-8025-e4634456cce2"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 38.1 0)
 		(unit 1)
@@ -3683,7 +3739,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 49.53 59.69 0)
+		(at 54.61 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3692,7 +3748,7 @@
 		(fields_autoplaced yes)
 		(uuid "f64cd373-ef40-451f-b3e8-52f846049444")
 		(property "Reference" "#PWR0116"
-			(at 49.53 66.04 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3757,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 49.53 63.5 0)
+			(at 54.61 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,7 +3765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 59.69 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 59.69 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +3783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 49.53 59.69 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
