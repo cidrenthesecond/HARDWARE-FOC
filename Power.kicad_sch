@@ -2612,7 +2612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AOD413A"
+		(property "Footprint" "AOD413A:AOD413A"
 			(at 153.34 35.56 0)
 			(effects
 				(font
