@@ -7,28 +7,27 @@
     "hidden_nets": [
       "+3.3V",
       "GNDD",
-      "+5V",
       "/Encoder/5V_Encoder",
       "VCC_ISO",
       "GND_ISO",
       "+24V"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
-      "images": 0.6,
+      "images": 0.7599999904632568,
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.2199999988079071
     },
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -58,7 +57,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -81,6 +80,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -93,7 +94,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       162,
@@ -105,7 +108,9 @@
       91,
       71,
       91,
-      91
+      91,
+      91,
+      520
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

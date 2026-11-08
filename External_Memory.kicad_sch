@@ -923,7 +923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e154602-0218-4c8f-bbb7-74d94a8c0e22")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR093"
 			(at 72.39 44.45 0)
 			(effects
 				(font
@@ -974,7 +974,7 @@
 		(instances
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/2a1e2b54-6705-408c-be39-11e4338a49b1"
-					(reference "#PWR032")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -990,7 +990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2258d7a6-4685-4ba9-b0de-5071264029c7")
-		(property "Reference" "U5"
+		(property "Reference" "U12"
 			(at 99.06 58.4199 0)
 			(effects
 				(font
@@ -1062,7 +1062,7 @@
 		(instances
 			(project ""
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/2a1e2b54-6705-408c-be39-11e4338a49b1"
-					(reference "U5")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -1078,7 +1078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33cedfe1-e122-4354-b224-535e42a4e2f7")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR092"
 			(at 69.85 63.5 0)
 			(effects
 				(font
@@ -1129,7 +1129,7 @@
 		(instances
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/2a1e2b54-6705-408c-be39-11e4338a49b1"
-					(reference "#PWR085")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -1145,7 +1145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5182b437-b703-4869-bcf6-e6a1cfae937a")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR095"
 			(at 90.17 80.01 0)
 			(effects
 				(font
@@ -1195,7 +1195,7 @@
 		(instances
 			(project ""
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/2a1e2b54-6705-408c-be39-11e4338a49b1"
-					(reference "#PWR031")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -1211,7 +1211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89c893a5-df92-4d57-9206-fa2326dc9267")
-		(property "Reference" "C12"
+		(property "Reference" "C18"
 			(at 83.82 36.83 90)
 			(effects
 				(font
@@ -1227,7 +1227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "FOC_Private:C_0805_Private"
 			(at 80.01 45.4152 0)
 			(effects
 				(font
@@ -1263,7 +1263,7 @@
 		(instances
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/2a1e2b54-6705-408c-be39-11e4338a49b1"
-					(reference "C12")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1279,7 +1279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9765e6dc-95dc-4311-82b9-d308fc499393")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR094"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -1329,7 +1329,7 @@
 		(instances
 			(project ""
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/2a1e2b54-6705-408c-be39-11e4338a49b1"
-					(reference "#PWR030")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -1344,7 +1344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd97cce3-d902-4f61-98f4-28fb46f11e33")
-		(property "Reference" "R30"
+		(property "Reference" "R34"
 			(at 73.914 66.802 90)
 			(effects
 				(font
@@ -1360,7 +1360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "FOC_Private:R_0805_Private"
 			(at 73.66 65.278 90)
 			(effects
 				(font
@@ -1396,7 +1396,7 @@
 		(instances
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/2a1e2b54-6705-408c-be39-11e4338a49b1"
-					(reference "R30")
+					(reference "R34")
 					(unit 1)
 				)
 			)

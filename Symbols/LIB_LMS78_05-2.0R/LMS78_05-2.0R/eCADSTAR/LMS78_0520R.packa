@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LMS78_05-2_0R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-27-10:37:12)
+    (mountForm default
+        (footprintRef "LMS78_0520R")
+        (spec "System")
+    )
+)

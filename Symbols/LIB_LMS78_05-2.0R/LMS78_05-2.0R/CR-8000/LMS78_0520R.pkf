@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LMS78_0520R"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LMS78_0520R")
+        (spec "default")
+    )
+)
