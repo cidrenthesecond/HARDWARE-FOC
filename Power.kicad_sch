@@ -1132,7 +1132,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "PS"
 				(at 10.414 13.462 0)
 				(effects
 					(font
@@ -3354,8 +3354,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85f08a26-f9eb-4dd9-aca3-520db6f70229")
-		(property "Reference" "U9"
+		(uuid "a4398b94-0eb9-4935-8a67-c2e3b1f4c0ad")
+		(property "Reference" "PS1"
 			(at 104.14 29.21 0)
 			(effects
 				(font
@@ -3450,19 +3450,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "13853240-4dec-4fd1-8ef9-6ccae1ccf2b2")
-		)
 		(pin "3"
-			(uuid "714103c2-c7e4-41a1-a696-ccaac067a901")
+			(uuid "65692f3c-2411-4cf5-9e65-35304845bfd8")
+		)
+		(pin "1"
+			(uuid "74592fa8-1a4d-47af-ac16-4c6d67cd2b77")
 		)
 		(pin "2"
-			(uuid "f15c9dd6-5ba0-4a38-bf98-fe68caf22536")
+			(uuid "cb439ddb-64e4-46b3-8278-70223277dba0")
 		)
 		(instances
 			(project ""
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/9e9712b1-28dc-4627-8025-e4634456cce2"
-					(reference "U9")
+					(reference "PS1")
 					(unit 1)
 				)
 			)
