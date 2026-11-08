@@ -7467,7 +7467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "FOC_Private:LED_0805_Private"
 			(at 161.29 161.29 0)
 			(effects
 				(font
@@ -10266,7 +10266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "FOC_Private:LED_0805_Private"
 			(at 143.51 161.29 0)
 			(effects
 				(font
@@ -10820,7 +10820,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "FOC_Private:LED_0805_Private"
 			(at 152.4 161.29 0)
 			(effects
 				(font

@@ -5,7 +5,7 @@
 	(uuid "acb02ed2-6d75-4254-9e83-d965d5b71997")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Connector:RJ45"
+		(symbol "Connector:RJ45_Shielded"
 			(pin_names
 				(offset 1.016)
 			)
@@ -21,7 +21,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "RJ45"
+			(property "Value" "RJ45_Shielded"
 				(at 2.54 13.97 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(property "Description" "RJ connector, 8P8C (8 positions 8 connected), Shielded"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "8P8C RJ socket connector"
+			(property "ki_keywords" "8P8C RJ jack socket connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RJ45_0_1"
+			(symbol "RJ45_Shielded_0_1"
 				(polyline
 					(pts
 						(xy -6.35 1.905) (xy -5.08 1.905) (xy -5.08 1.905)
@@ -198,7 +198,25 @@
 					)
 				)
 			)
-			(symbol "RJ45_1_1"
+			(symbol "RJ45_Shielded_1_1"
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 10.16 10.16 180)
 					(length 2.54)
@@ -2433,10 +2451,6 @@
 		(uuid "f7aaefa9-b12f-4344-bd74-5f21893552bb")
 	)
 	(no_connect
-		(at 35.56 73.66)
-		(uuid "000c725c-9ab3-411a-bd47-3096c5887eea")
-	)
-	(no_connect
 		(at 35.56 45.72)
 		(uuid "02a118cf-9db0-4392-b510-d18d7cdae45d")
 	)
@@ -2453,24 +2467,12 @@
 		(uuid "4528c056-174e-49be-bf65-c46d98121ea5")
 	)
 	(no_connect
-		(at 35.56 76.2)
-		(uuid "472df915-97f6-4b99-b34d-cd8695b3e836")
-	)
-	(no_connect
-		(at 35.56 71.12)
-		(uuid "514a2d69-1134-4a91-8ede-47948cf723b6")
-	)
-	(no_connect
 		(at 116.84 68.58)
 		(uuid "a7928032-e8ff-4cd9-9569-16621283a2b5")
 	)
 	(no_connect
 		(at 149.86 68.58)
 		(uuid "bcc51e8c-3182-43b4-ab9c-cb5071875ba2")
-	)
-	(no_connect
-		(at 35.56 83.82)
-		(uuid "df36a116-9d43-46f9-ae95-c81c14b34987")
 	)
 	(wire
 		(pts
@@ -2494,13 +2496,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 104.14) (xy 38.1 105.41)
+			(xy 45.72 86.36) (xy 45.72 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d469e01-2f66-4a26-af71-6de203569e6c")
+		(uuid "0d4e5bda-fdab-451a-be21-4540326b516d")
 	)
 	(wire
 		(pts
@@ -2544,6 +2546,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 88.9) (xy 36.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ac1cb7-48e2-4da1-8aac-4dc5580a9521")
+	)
+	(wire
+		(pts
 			(xy 97.79 63.5) (xy 97.79 64.77)
 		)
 		(stroke
@@ -2564,16 +2576,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 81.28) (xy 43.18 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a0b1bd3-8d5c-4741-ab79-b6454ce1a343")
-	)
-	(wire
-		(pts
 			(xy 114.3 49.53) (xy 114.3 50.8)
 		)
 		(stroke
@@ -2581,16 +2583,6 @@
 			(type default)
 		)
 		(uuid "1a46336e-ecc9-44f1-b292-803cc275726a")
-	)
-	(wire
-		(pts
-			(xy 35.56 88.9) (xy 36.83 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1deb777e-1314-4712-aa4a-fe7dc0d11524")
 	)
 	(wire
 		(pts
@@ -2674,13 +2666,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 104.14) (xy 34.29 105.41)
+			(xy 36.83 88.9) (xy 36.83 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "344eed41-665f-4dfa-8abe-c35a72c32727")
+		(uuid "2ecd7c52-3061-4d36-a970-3851821ceb1a")
 	)
 	(wire
 		(pts
@@ -2754,26 +2746,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 113.03) (xy 30.48 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52839b41-7e38-4809-b424-f303072d542d")
-	)
-	(wire
-		(pts
-			(xy 45.72 86.36) (xy 45.72 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52db6bdd-aa01-4c0b-8496-4c2d34dfba1e")
-	)
-	(wire
-		(pts
 			(xy 97.79 63.5) (xy 116.84 63.5)
 		)
 		(stroke
@@ -2791,16 +2763,6 @@
 			(type dash)
 		)
 		(uuid "548c0a7c-b59b-45ca-bad9-ce4ead5e01cb")
-	)
-	(wire
-		(pts
-			(xy 35.56 78.74) (xy 40.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54b564f8-e89b-4f7d-b942-f1ed1bf02947")
 	)
 	(wire
 		(pts
@@ -2851,16 +2813,6 @@
 			(type default)
 		)
 		(uuid "5ca2e4f9-a23f-42e7-a8b4-2fc003e9255f")
-	)
-	(wire
-		(pts
-			(xy 26.67 116.84) (xy 30.48 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e3643a0-f6bb-492e-a142-0d90f63402b6")
 	)
 	(wire
 		(pts
@@ -2921,6 +2873,16 @@
 			(type default)
 		)
 		(uuid "64dc9287-378d-4439-934e-1041b0dee86d")
+	)
+	(wire
+		(pts
+			(xy 35.56 78.74) (xy 40.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64eecd9b-4931-4505-8ab6-42625a5b51de")
 	)
 	(wire
 		(pts
@@ -3054,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 81.28) (xy 43.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd62b82-ec9e-4019-a826-d4ae46b25050")
+	)
+	(wire
+		(pts
 			(xy 35.56 43.18) (xy 40.64 43.18)
 		)
 		(stroke
@@ -3091,6 +3063,16 @@
 			(type default)
 		)
 		(uuid "88b3a3d2-554c-451b-a48b-7a12b910975f")
+	)
+	(wire
+		(pts
+			(xy 35.56 86.36) (xy 45.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2cd84c-91da-4b35-b8a9-09ffd7e68793")
 	)
 	(wire
 		(pts
@@ -3224,26 +3206,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 104.14) (xy 41.91 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d33449-ce12-4b29-83e3-e96ad4eed774")
-	)
-	(wire
-		(pts
-			(xy 36.83 88.9) (xy 36.83 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a896c5e9-e9f5-4307-8131-a301b7c6b13a")
-	)
-	(wire
-		(pts
 			(xy 91.44 38.1) (xy 90.17 38.1)
 		)
 		(stroke
@@ -3271,16 +3233,6 @@
 			(type default)
 		)
 		(uuid "b063b699-312a-4f72-92ea-fd9df1ddb0db")
-	)
-	(wire
-		(pts
-			(xy 26.67 118.11) (xy 26.67 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bff4fd97-e3ca-4dbd-a020-1fcec8567f75")
 	)
 	(wire
 		(pts
@@ -3364,16 +3316,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 104.14) (xy 45.72 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53062dd-f9b1-4c8f-a9ff-8db17a46756d")
-	)
-	(wire
-		(pts
 			(xy 62.23 53.34) (xy 62.23 55.88)
 		)
 		(stroke
@@ -3411,26 +3353,6 @@
 			(type default)
 		)
 		(uuid "f29adbc3-7ae8-47ce-9259-189ee62d1c21")
-	)
-	(wire
-		(pts
-			(xy 35.56 86.36) (xy 45.72 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7880ae3-f3e4-4838-b0e0-8f1ba7b2de45")
-	)
-	(label "A"
-		(at 45.72 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13ffa590-7bea-4770-8ecd-ce506ec05836")
 	)
 	(label "A"
 		(at 45.72 55.88 0)
@@ -3481,36 +3403,6 @@
 			(justify left bottom)
 		)
 		(uuid "a8b3bd0f-2000-4f5d-b1a8-04f6f130088a")
-	)
-	(label "B"
-		(at 38.1 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0e3b061-48f2-4480-8666-7bef7ed6d8b2")
-	)
-	(label "B"
-		(at 41.91 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc83ae09-46f5-4408-82cf-2f9acae5fb49")
-	)
-	(label "A"
-		(at 34.29 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d459062f-1ffb-4ada-b6e6-f59a01a1b842")
 	)
 	(label "A"
 		(at 64.77 104.14 0)
@@ -3637,92 +3529,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:RJ45")
-		(at 25.4 78.74 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fd5165c-c6ea-48fb-a7a6-8e210ab4d368")
-		(property "Reference" "J7"
-			(at 21.082 94.234 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RJ45"
-			(at 18.542 94.234 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
-			(at 25.4 79.375 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 79.375 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
-			(at 25.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "785491e1-e8ff-4000-b8da-b9f51211a15b")
-		)
-		(pin "3"
-			(uuid "2bae3fa0-3f9f-4f92-ba34-7790e9a487cc")
-		)
-		(pin "8"
-			(uuid "7d9240f6-9824-445a-950f-2c151e3ba422")
-		)
-		(pin "7"
-			(uuid "4804259f-c1d5-4ea2-bce5-6988ef4796b5")
-		)
-		(pin "6"
-			(uuid "ae8a741e-19d3-45c8-a4ac-b924781307af")
-		)
-		(pin "5"
-			(uuid "4bf044d8-db20-4a90-9c40-9567f3157246")
-		)
-		(pin "4"
-			(uuid "dae9c5e7-4e27-4a14-a23f-f8688dd6f0c9")
-		)
-		(pin "1"
-			(uuid "9bd0fcdd-e6b7-4a5e-ab6e-6bf9daa0b026")
-		)
-		(instances
-			(project "FOC_Driver"
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 162.56 67.31 180)
 		(unit 1)
@@ -3783,82 +3589,6 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
 					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 26.67 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14e50ef0-e931-4009-9898-79254d16d2c3")
-		(property "Reference" "#PWR074"
-			(at 26.67 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_ISO"
-			(at 26.6699 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 26.67 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 26.67 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74e4b066-b5c7-47a5-89be-9d3debfbb053")
-		)
-		(instances
-			(project "FOC_Driver"
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4376,6 +4106,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:RJ45_Shielded")
+		(at 25.4 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f019fd9-c54f-46c7-895a-ba7e1f32b70c")
+		(property "Reference" "J1"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45_Shielded"
+			(at 25.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FOC_Private:RJ45_Private"
+			(at 0 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 42.545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), Shielded"
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SH"
+			(uuid "db11e917-0a8a-424a-b2cc-a7b41ca04f40")
+		)
+		(pin "8"
+			(uuid "2daa4dc9-e57c-4118-bf68-0a226758ac34")
+		)
+		(pin "7"
+			(uuid "8961ab51-b944-4f2f-86fc-51ddc512ebff")
+		)
+		(pin "6"
+			(uuid "7c5598f6-383e-4f58-9528-b03cc22e1dc3")
+		)
+		(pin "5"
+			(uuid "bf06e912-2e0b-4736-ac48-a7f2563d2178")
+		)
+		(pin "3"
+			(uuid "e33d9e1f-1bad-4957-bed3-b64abf2f9c55")
+		)
+		(pin "4"
+			(uuid "8c4a51ed-b200-45f8-b1ff-b8b30857aaef")
+		)
+		(pin "2"
+			(uuid "5cb9f51e-3dc3-480a-b7af-f5243335c969")
+		)
+		(pin "1"
+			(uuid "565ae6f1-918a-4099-a9dd-8b3b2d9ccf78")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 41.91 30.48 0)
 		(unit 1)
@@ -4730,6 +4548,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDS")
+		(at 25.4 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67165704-525e-4022-8746-9a9b92bd3ce9")
+		(property "Reference" "#PWR073"
+			(at 25.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 27.94 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d7d0bd-ab3d-4fa6-802a-99939a76b7bc")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCCQ")
 		(at 57.15 30.48 0)
 		(unit 1)
@@ -4799,81 +4693,6 @@
 			(project ""
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 26.67 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72a2a55c-0c59-46b6-9455-fa4ee649763a")
-		(property "Reference" "#PWR073"
-			(at 26.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_ISO"
-			(at 26.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 26.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 26.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d90ea84-33cb-400e-95d8-66d5e07000f2")
-		)
-		(instances
-			(project "FOC_Driver"
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5086,6 +4905,95 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:RJ45_Shielded")
+		(at 25.4 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dfeee44-d3d4-4e5f-bee6-1cce528b0b96")
+		(property "Reference" "J2"
+			(at 25.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45_Shielded"
+			(at 25.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FOC_Private:RJ45_Private"
+			(at 25.4 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), Shielded"
+			(at 25.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SH"
+			(uuid "9ea8cdf7-f15d-4271-a102-5c9c813aa5eb")
+		)
+		(pin "8"
+			(uuid "fe7ced53-4b39-4de8-ac56-547dbf41c984")
+		)
+		(pin "7"
+			(uuid "2be676c4-3325-45c0-b40d-f5aca9802141")
+		)
+		(pin "6"
+			(uuid "bcc67c20-6bed-4524-8a78-7eb316fae4ac")
+		)
+		(pin "5"
+			(uuid "eb065a41-9045-48c6-bab2-5ac7a4523517")
+		)
+		(pin "3"
+			(uuid "682c7889-a062-4afc-903a-88efe11b35c8")
+		)
+		(pin "4"
+			(uuid "e81c9eb7-0813-4313-a2b8-2c8b76161323")
+		)
+		(pin "2"
+			(uuid "820275ed-9204-4673-ac34-4d071d607d0e")
+		)
+		(pin "1"
+			(uuid "1ad6ff11-f776-4f7a-85ec-9aac1daf77cc")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5678,174 +5586,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FOC:SRV05-4")
-		(at 41.91 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfb36f28-0d80-46fa-983b-c9114e4d1963")
-		(property "Reference" "U9"
-			(at 36.576 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SRV05-4"
-			(at 36.576 121.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 46.228 94.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 42.672 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
-			(at 41.148 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "f7e08d7c-6cf1-4633-8ecd-cf71a9951a93")
-		)
-		(pin "5"
-			(uuid "f1aef194-f2b6-46e8-920d-c48945d11e59")
-		)
-		(pin "3"
-			(uuid "2965b961-6cdd-4d36-9eb3-acad6fd43ad2")
-		)
-		(pin "1"
-			(uuid "d86f1543-5a88-48f6-ba73-c50a152099d1")
-		)
-		(pin "2"
-			(uuid "f729d6c0-e3f0-47a2-b39c-280d1fd221a4")
-		)
-		(pin "4"
-			(uuid "98be1b6c-8526-4c68-86ee-c23c2bc6f926")
-		)
-		(instances
-			(project ""
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:RJ45")
-		(at 25.4 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4b0b5d5-7f1c-424d-adef-1aae63316285")
-		(property "Reference" "J6"
-			(at 18.288 29.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RJ45"
-			(at 20.828 29.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
-			(at 25.4 42.545 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 42.545 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
-			(at 25.4 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "03b9859a-7f24-4773-be91-daa05ae822c6")
-		)
-		(pin "3"
-			(uuid "966da62f-a89d-499a-b720-461f4b7babd7")
-		)
-		(pin "8"
-			(uuid "ef3f016a-00f9-4798-9308-5e1d4eda1808")
-		)
-		(pin "7"
-			(uuid "b0cff53b-8c1a-4356-9b8a-d5addcd4345f")
-		)
-		(pin "6"
-			(uuid "50893229-ffd9-4666-8736-53e7c519f916")
-		)
-		(pin "5"
-			(uuid "f21d46d2-ae37-487d-acd7-e87f7b2d742d")
-		)
-		(pin "4"
-			(uuid "4b32802e-78a1-42c6-8a82-513d561d8f88")
-		)
-		(pin "1"
-			(uuid "28ea61c0-fcb0-49c6-8b91-cc896c91f78c")
-		)
-		(instances
-			(project ""
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCCQ")
 		(at 82.55 36.83 0)
 		(unit 1)
@@ -6140,6 +5880,81 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 25.4 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8808dce-ab50-47ed-8f1f-3ab73ba4055a")
+		(property "Reference" "#PWR074"
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3336bd62-4183-4e18-8f75-e6c3fba08d61")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/f57fc778-86a0-45eb-a73e-171c173df74a"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)

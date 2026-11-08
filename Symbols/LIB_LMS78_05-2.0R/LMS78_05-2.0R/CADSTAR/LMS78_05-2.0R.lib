@@ -1,0 +1,16 @@
+.LMS78_05-2.0R :1 ;Non-Isolated PoL Module DC DC Converter 1 Output 5V 2A 8V - 36V Input
+LMS78_0520R
+*STM PS
+*NGS
+*PLB 1="VIN" 2="GND" 3="+VO"
+*MXP 3
+*DFN LMS78_05-2.0R
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Gaptec)
+~!Manufacturer_Part_Number (LMS78_05-2.0R)
+~!Link Datasheet (https://gaptec-electronic.com/datenblaetter/LMS78_2.0R.pdf)
+~!Height (17.75mm)
+~!3D_Model (LMS78_05-2.0R)
+LMS78_05-2.0R
+1.1!U 2.1!U 3.1!U 

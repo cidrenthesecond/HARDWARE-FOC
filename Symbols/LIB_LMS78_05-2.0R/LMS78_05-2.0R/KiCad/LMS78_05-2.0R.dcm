@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMS78_05-2.0R
+D Non-Isolated PoL Module DC DC Converter 1 Output 5V 2A 8V - 36V Input
+K
+F https://gaptec-electronic.com/datenblaetter/LMS78_2.0R.pdf
+$ENDCMP
+#
+#End Doc Library

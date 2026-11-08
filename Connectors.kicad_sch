@@ -7756,7 +7756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMF"
+		(property "Footprint" "FOC_Private:D_SMF_Private"
 			(at 236.22 78.74 0)
 			(effects
 				(font
@@ -7892,7 +7892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMF"
+		(property "Footprint" "FOC_Private:D_SMF_Private"
 			(at 200.66 97.79 0)
 			(effects
 				(font
@@ -8279,7 +8279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMF"
+		(property "Footprint" "FOC_Private:D_SMF_Private"
 			(at 180.34 80.01 0)
 			(effects
 				(font

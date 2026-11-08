@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LMS78_05_2.0R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Gaptec", "LMS78_05-2.0R" (!) = "", "LMS78_0520R", "Other", "", "", "Non-Isolated PoL Module DC DC Converter 1 Output 5V 2A 8V - 36V Input", "https://gaptec-electronic.com/datenblaetter/LMS78_2.0R.pdf", "17.75 mm"
+END_PART
+
+END.
