@@ -4024,16 +4024,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 124.46) (xy 49.53 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2847b5-8258-444e-924a-040f328122a4")
-	)
-	(wire
-		(pts
 			(xy 185.42 33.02) (xy 185.42 34.29)
 		)
 		(stroke
@@ -4244,6 +4234,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 127) (xy 49.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46eedab0-d5a0-4f66-a32b-5ecb32c0da1f")
+	)
+	(wire
+		(pts
 			(xy 100.33 138.43) (xy 101.6 138.43)
 		)
 		(stroke
@@ -4311,16 +4311,6 @@
 			(type default)
 		)
 		(uuid "53b57e7b-75bd-4bcb-8a60-f4f204b1681b")
-	)
-	(wire
-		(pts
-			(xy 45.72 127) (xy 49.53 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5419c6a0-2af8-43df-85a2-787350d74df2")
 	)
 	(wire
 		(pts
@@ -4771,6 +4761,16 @@
 			(type default)
 		)
 		(uuid "8f91bcca-0bc7-4acd-82f7-1b86ccf4913f")
+	)
+	(wire
+		(pts
+			(xy 45.72 124.46) (xy 49.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fef2b1c-88fc-425c-ba2a-659603a48c3d")
 	)
 	(wire
 		(pts
@@ -6128,7 +6128,18 @@
 		)
 		(uuid "565bde06-a762-4d24-a078-6ce7e744e313")
 	)
-	(hierarchical_label "nCS"
+	(hierarchical_label "heatsinkTemperature"
+		(shape input)
+		(at 101.6 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b37e956-bf53-4846-bbcb-0a717a17fe9d")
+	)
+	(hierarchical_label "FLASH_nCS"
 		(shape output)
 		(at 236.22 152.4 0)
 		(effects
@@ -6172,17 +6183,6 @@
 		)
 		(uuid "6314c518-88c1-4317-b544-1d55bf8f2f94")
 	)
-	(hierarchical_label "Current_B"
-		(shape input)
-		(at 101.6 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "636b76f2-7fbc-4074-bc0d-c73c6ff70cc5")
-	)
 	(hierarchical_label "Bypass_Relay"
 		(shape output)
 		(at 200.66 59.69 0)
@@ -6204,6 +6204,17 @@
 			(justify left)
 		)
 		(uuid "6d8d6e63-82aa-4b7a-a355-86cbc858c544")
+	)
+	(hierarchical_label "Current_B"
+		(shape input)
+		(at 101.6 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f98bf86-8e33-42a2-a68a-5a235163be54")
 	)
 	(hierarchical_label "RS485_DE"
 		(shape output)
@@ -6238,17 +6249,6 @@
 			(justify left)
 		)
 		(uuid "7f174cc2-2875-469d-8eae-d851eec697fb")
-	)
-	(hierarchical_label "heatsinkTemperature"
-		(shape input)
-		(at 101.6 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f3e4b13-40a7-42e3-a5a5-213a7d11528e")
 	)
 	(hierarchical_label "Error_Fixed"
 		(shape input)
@@ -6294,7 +6294,7 @@
 		)
 		(uuid "ae170068-ba9c-4a60-b633-93f1d6f9334e")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "FLASH_SCLK"
 		(shape output)
 		(at 236.22 144.78 0)
 		(effects
@@ -6373,7 +6373,7 @@
 	)
 	(hierarchical_label "Software_Brake"
 		(shape output)
-		(at 45.72 124.46 180)
+		(at 45.72 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6382,7 +6382,7 @@
 		)
 		(uuid "cf20cbba-f9bc-4623-8ded-dfe5994be385")
 	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "FLASH_MISO"
 		(shape input)
 		(at 236.22 140.97 0)
 		(effects
@@ -6471,7 +6471,7 @@
 		)
 		(uuid "f2cd8ac5-7ab2-4783-9fec-5acd89f8a692")
 	)
-	(hierarchical_label "MOSI"
+	(hierarchical_label "FLASH_MOSI"
 		(shape output)
 		(at 236.22 148.59 0)
 		(effects
@@ -6495,7 +6495,7 @@
 	)
 	(hierarchical_label "Bypass_Relay"
 		(shape output)
-		(at 45.72 127 180)
+		(at 45.72 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)

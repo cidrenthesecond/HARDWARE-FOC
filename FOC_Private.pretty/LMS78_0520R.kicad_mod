@@ -6,7 +6,7 @@
 	(descr "3-SIP_2023")
 	(tags "Power Supply")
 	(property "Reference" "U**"
-		(at 2.54 2.35 0)
+		(at 2 -4 0)
 		(layer "F.SilkS")
 		(uuid "716778b1-7b29-47cf-a2f3-eb20f45f8354")
 		(effects
