@@ -251,7 +251,7 @@
 		(uuid "41a577d8-c93b-4689-8a46-c971b056a7d7")
 	)
 	(embedded_fonts no)
-	(model "LMS78_05-2.0R.stp"
+	(model "${KIPRJMOD}/Symbols/LIB_LMS78_05-2.0R/LMS78_05-2.0R/3D/LMS78_05-2.0R.stp"
 		(offset
 			(xyz 0 0 0)
 		)

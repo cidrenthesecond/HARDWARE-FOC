@@ -5,7 +5,7 @@
 	(uuid "0672e934-00c5-404b-911c-afe46da08768")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:DE9_Socket"
+		(symbol "Connector:DE9_Socket_MountingHoles"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,15 +14,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 13.97 0)
+				(at 0 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "DE9_Socket"
-				(at 0 -14.605 0)
+			(property "Value" "DE9_Socket_MountingHoles"
+				(at 0 14.605 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "9-pin D-SUB connector, socket (female)"
+			(property "Description" "9-pin D-SUB connector, socket (female), Mounting Hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DE9_Socket_0_1"
+			(symbol "DE9_Socket_MountingHoles_0_1"
 				(polyline
 					(pts
 						(xy -3.81 13.335) (xy -3.81 -13.335) (xy 3.81 -9.525) (xy 3.81 9.525) (xy -3.81 13.335)
@@ -295,7 +295,7 @@
 					)
 				)
 			)
-			(symbol "DE9_Socket_1_1"
+			(symbol "DE9_Socket_MountingHoles_1_1"
 				(pin passive line
 					(at -7.62 10.16 0)
 					(length 3.81)
@@ -451,6 +451,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3967,6 +3985,12 @@
 		(uuid "af46945b-30cc-4f39-840d-1b4cd507d877")
 	)
 	(junction
+		(at 130.81 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce0162e1-ab68-4666-a7b8-dfa9601ddf6f")
+	)
+	(junction
 		(at 59.69 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4074,7 +4098,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 124.46) (xy 152.4 124.46)
+			(xy 116.84 124.46) (xy 152.4 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4284,6 +4308,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 147.32) (xy 130.81 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fb1f9e-7ac6-48ce-a75f-2ee502e8d537")
+	)
+	(wire
+		(pts
 			(xy 177.8 119.38) (xy 186.69 119.38)
 		)
 		(stroke
@@ -4404,6 +4438,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 147.32) (xy 140.97 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbe46b7-1ff5-42e8-9f3e-ead9383ec967")
+	)
+	(wire
+		(pts
 			(xy 154.94 80.01) (xy 156.21 80.01)
 		)
 		(stroke
@@ -4414,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 148.59) (xy 129.54 148.59)
+			(xy 77.47 148.59) (xy 119.38 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4474,6 +4518,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 146.05) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e49dc0-dea5-4b71-b2fa-d32d0a34aff9")
+	)
+	(wire
+		(pts
 			(xy 177.8 124.46) (xy 184.15 124.46)
 		)
 		(stroke
@@ -4511,6 +4565,16 @@
 			(type default)
 		)
 		(uuid "49c1bdcc-a0a1-466b-812a-126500d89200")
+	)
+	(wire
+		(pts
+			(xy 27.94 30.48) (xy 27.94 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f704c3-8551-4b62-90e4-9a693c2ee114")
 	)
 	(wire
 		(pts
@@ -4664,6 +4728,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 156.21) (xy 130.81 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6434db7c-857d-4322-bbe8-b8ea6461349d")
+	)
+	(wire
+		(pts
 			(xy 113.03 109.22) (xy 113.03 87.63)
 		)
 		(stroke
@@ -4784,7 +4858,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 153.67) (xy 134.62 153.67)
+			(xy 74.93 153.67) (xy 121.92 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5024,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 148.59) (xy 129.54 127)
+			(xy 119.38 148.59) (xy 119.38 127)
 		)
 		(stroke
 			(width 0)
@@ -5104,7 +5178,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 144.78) (xy 124.46 144.78)
+			(xy 80.01 144.78) (xy 116.84 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5304,7 +5378,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 144.78) (xy 124.46 124.46)
+			(xy 140.97 139.7) (xy 152.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf57aeb1-00ee-441a-9f37-b883f6513957")
+	)
+	(wire
+		(pts
+			(xy 116.84 144.78) (xy 116.84 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5414,7 +5498,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 127) (xy 152.4 127)
+			(xy 119.38 127) (xy 152.4 127)
 		)
 		(stroke
 			(width 0)
@@ -5494,6 +5578,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 147.32) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d711ab0b-9483-439e-877d-b09ba6a80b9d")
+	)
+	(wire
+		(pts
 			(xy 91.44 83.82) (xy 95.25 83.82)
 		)
 		(stroke
@@ -5514,7 +5608,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 147.32) (xy 143.51 148.59)
+			(xy 130.81 138.43) (xy 130.81 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5674,17 +5768,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 139.7) (xy 152.4 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4c21ceb-2ea1-455e-bc5c-a65fe3c9181d")
-	)
-	(wire
-		(pts
-			(xy 134.62 153.67) (xy 134.62 129.54)
+			(xy 121.92 153.67) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5694,7 +5778,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 129.54) (xy 152.4 129.54)
+			(xy 121.92 129.54) (xy 152.4 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9245,6 +9329,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 27.94 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b4f0a0d-6f50-491b-9ce8-5132f44d8876")
+		(property "Reference" "#PWR0133"
+			(at 27.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 27.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ee65952-4ff1-49bf-b7fb-1e381e19b380")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FOC:74HC245")
 		(at 165.1 129.54 0)
 		(unit 1)
@@ -10176,6 +10326,73 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5abc18c5-a11b-4798-a699-e1e13e7d6c6c")
+		(property "Reference" "R55"
+			(at 134.112 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 134.366 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FOC_Private:R_0805_Private"
+			(at 132.588 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b29575b-1aa2-4459-8652-b97d03f5b015")
+		)
+		(pin "2"
+			(uuid "98076010-2d65-40bc-b918-2ea7637fc8e6")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -11159,6 +11376,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 130.81 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d985030-a224-489b-af4c-a1b0aea0cd2c")
+		(property "Reference" "#PWR0132"
+			(at 130.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 130.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94f071a4-3e5d-458f-a36b-a3df8aae4b57")
+		)
+		(instances
+			(project "FOC_Driver"
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FOC:SRV05-4")
 		(at 127 33.02 0)
 		(unit 1)
@@ -11309,7 +11592,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 143.51 148.59 180)
+		(at 130.81 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11318,7 +11601,7 @@
 		(fields_autoplaced yes)
 		(uuid "96dd6c9a-7af9-4eea-8ef1-cb57ebad7f1d")
 		(property "Reference" "#PWR059"
-			(at 143.51 144.78 0)
+			(at 130.81 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11327,7 +11610,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 143.51 153.67 0)
+			(at 130.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11335,7 +11618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 148.59 0)
+			(at 130.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +11627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 148.59 0)
+			(at 130.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,7 +11636,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 143.51 148.59 0)
+			(at 130.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,94 +12351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DE9_Socket")
-		(at 27.94 46.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b99be18f-92ef-41b1-99ee-bd08a5d63b2c")
-		(property "Reference" "J5"
-			(at 27.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DE9_Socket"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
-			(at 25.4 62.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "9-pin D-SUB connector, socket (female)"
-			(at 27.94 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "733d3ed3-258e-415a-bdf2-3480887786ff")
-		)
-		(pin "7"
-			(uuid "69241242-4865-46ac-8d02-89c3a4e7c1cb")
-		)
-		(pin "1"
-			(uuid "72f03b15-547a-4779-ac31-1302b7155e07")
-		)
-		(pin "8"
-			(uuid "e201ad61-a3bb-46a2-a203-c29f18f33c51")
-		)
-		(pin "3"
-			(uuid "21f58c2f-f06f-4d60-8072-3f9d79aa3a50")
-		)
-		(pin "2"
-			(uuid "45b1c049-33ff-48fc-8d34-79f2f5ef050f")
-		)
-		(pin "9"
-			(uuid "49828771-7ff0-486e-a94e-601a43494703")
-		)
-		(pin "4"
-			(uuid "a29f1a2d-53f6-47cb-b7f8-863e2e5bca78")
-		)
-		(pin "5"
-			(uuid "bea1c7c7-c95b-4ada-aae7-2b6c09ad37e0")
-		)
-		(instances
-			(project ""
-				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 34.29 149.86 180)
 		(unit 1)
@@ -12356,6 +12551,99 @@
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket_MountingHoles")
+		(at 27.94 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d55eb632-17df-435c-9e0d-d20fdfcbe167")
+		(property "Reference" "J7"
+			(at 30.734 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DE9_Socket_MountingHoles"
+			(at 43.688 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
+			(at 27.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female), Mounting Hole"
+			(at 27.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f02dd620-09a4-48d0-a8e5-c61b810c4ddc")
+		)
+		(pin "8"
+			(uuid "8455cf0d-488b-46bc-906f-9fa53ca0f2fe")
+		)
+		(pin "4"
+			(uuid "ba2da4a8-0fed-4cdd-9639-2c2bd0f1e4fb")
+		)
+		(pin "9"
+			(uuid "f58c6dd7-23aa-4fd4-9a42-555f9c778060")
+		)
+		(pin "5"
+			(uuid "ac3cf898-0bad-4230-b9d6-9e10a0d8d0b1")
+		)
+		(pin "2"
+			(uuid "4dba8151-2e98-42dc-bb23-16d8ae00e9b6")
+		)
+		(pin "7"
+			(uuid "e0652d70-a08a-4340-81b0-ca0d19338a94")
+		)
+		(pin "0"
+			(uuid "b2899e69-75ef-4ba9-bb63-cf00bf71d13f")
+		)
+		(pin "1"
+			(uuid "a41f5134-a7d9-4ada-85b0-fbb5400bca90")
+		)
+		(pin "3"
+			(uuid "9082e6ef-87f3-44da-8ff2-0274ab7116ff")
+		)
+		(instances
+			(project ""
+				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4/a853fa18-1554-4543-86ef-20ec948ab35c"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -13128,7 +13416,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 143.51 0)
+		(at 130.81 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13136,7 +13424,7 @@
 		(dnp no)
 		(uuid "fd1dcbbb-f54a-44f1-916a-e104a4f22638")
 		(property "Reference" "R27"
-			(at 140.208 142.24 0)
+			(at 134.112 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13144,7 +13432,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 139.954 144.018 0)
+			(at 134.366 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13152,7 +13440,7 @@
 			)
 		)
 		(property "Footprint" "FOC_Private:R_0805_Private"
-			(at 141.732 143.51 90)
+			(at 132.588 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13161,7 +13449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 143.51 0)
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,7 +13458,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 143.51 0)
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
