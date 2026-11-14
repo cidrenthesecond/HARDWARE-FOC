@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "d122ff09-cd02-4f53-acb5-49b9ee3003a4")
 	(paper "A4")
 	(lib_symbols)
@@ -468,11 +468,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 153 0 0.2000)
+			(color 255 153 0 0.2)
 		)
 		(uuid "2a1e2b54-6705-408c-be39-11e4338a49b1")
 		(property "Sheetname" "External_Memory"
 			(at 182.88 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,6 +484,8 @@
 		)
 		(property "Sheetfile" "External_Memory.kicad_sch"
 			(at 182.88 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,11 +553,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 255 0.1000)
+			(color 255 0 255 0.1)
 		)
 		(uuid "4ae57f05-2ce8-4161-8702-8e3c5b02b253")
 		(property "Sheetname" "MCU"
 			(at 104.394 59.436 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -563,6 +569,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 104.394 155.956 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -572,6 +580,8 @@
 		)
 		(property "Field2" ""
 			(at 104.14 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,11 +969,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 0 0.2000)
+			(color 255 255 0 0.2)
 		)
 		(uuid "6043d5f8-c012-4757-9969-51370d3f33f6")
 		(property "Sheetname" "Connectors"
 			(at 182.88 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,6 +985,8 @@
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
 			(at 182.88 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,11 +1155,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 0 0.2000)
+			(color 255 0 0 0.2)
 		)
 		(uuid "9e9712b1-28dc-4627-8025-e4634456cce2")
 		(property "Sheetname" "Power"
 			(at 182.88 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,6 +1171,8 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 182.88 52.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,11 +1201,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a776cfbe-8148-49c5-82b7-da8023ed72ca")
 		(property "Sheetname" "Test_Points"
 			(at 50.8 165.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,6 +1217,8 @@
 		)
 		(property "Sheetfile" "Test_Points.kicad_sch"
 			(at 50.8 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,11 +1247,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 0.2000)
+			(color 0 255 255 0.2)
 		)
 		(uuid "a853fa18-1554-4543-86ef-20ec948ab35c")
 		(property "Sheetname" "Encoder"
 			(at 46.99 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,6 +1263,8 @@
 		)
 		(property "Sheetfile" "Encoder.kicad_sch"
 			(at 46.99 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,11 +1383,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 255 0.2000)
+			(color 0 0 255 0.2)
 		)
 		(uuid "de6b40c6-0454-4809-8c15-f4017be2b905")
 		(property "Sheetname" "User_Interface"
 			(at 46.99 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,6 +1399,8 @@
 		)
 		(property "Sheetfile" "User_Interface.kicad_sch"
 			(at 46.99 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,11 +1489,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 0 0.2000)
+			(color 0 255 0 0.2)
 		)
 		(uuid "f57fc778-86a0-45eb-a73e-171c173df74a")
 		(property "Sheetname" "RS485"
 			(at 46.99 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,6 +1505,8 @@
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
 			(at 46.99 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1547,7 @@
 		(instances
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
