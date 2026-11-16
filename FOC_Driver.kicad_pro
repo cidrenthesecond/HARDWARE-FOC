@@ -584,7 +584,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/pawluczenko/Desktop/",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -767,7 +767,7 @@
         "uuid": "d122ff09-cd02-4f53-acb5-49b9ee3003a4"
       }
     ],
-    "used_designators": "TP19-24",
+    "used_designators": "#PWR132,#PWR134-135,C25,R55,TP19-24,U13",
     "variants": []
   },
   "sheets": [

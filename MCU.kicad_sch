@@ -3809,10 +3809,6 @@
 		(uuid "fcc7c1d4-0ed1-42b2-b6cc-dddf7698f8c5")
 	)
 	(no_connect
-		(at 49.53 100.33)
-		(uuid "11dfc9eb-3b1b-4932-851e-4c0bcf827aff")
-	)
-	(no_connect
 		(at 100.33 132.08)
 		(uuid "8dcc4269-3b6a-4f00-bad3-ed060ad40bb2")
 	)
@@ -5778,6 +5774,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 100.33) (xy 49.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0a5802-20c6-4b76-9de5-d91bf3134e8f")
+	)
+	(wire
+		(pts
 			(xy 172.72 147.32) (xy 172.72 151.13)
 		)
 		(stroke
@@ -6333,6 +6339,17 @@
 			(justify left)
 		)
 		(uuid "266f94a1-6778-45b5-97d5-f3772fff1d75")
+	)
+	(hierarchical_label "Translator_En"
+		(shape output)
+		(at 45.72 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27c9ac45-1aca-4fd5-8717-89cf601e858b")
 	)
 	(hierarchical_label "Encoder_B"
 		(shape input)

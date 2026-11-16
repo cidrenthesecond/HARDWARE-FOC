@@ -367,6 +367,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 39.37) (xy 125.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3171c7-902e-4e4c-a1cd-f2c6d3f0645e")
+	)
+	(wire
+		(pts
 			(xy 91.44 45.72) (xy 116.84 45.72)
 		)
 		(stroke
@@ -424,6 +434,16 @@
 			(type default)
 		)
 		(uuid "d88b7cb2-89a8-4a22-9500-eaf9266302b9")
+	)
+	(wire
+		(pts
+			(xy 125.73 39.37) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d46216-c2ce-4c65-822d-59ce68aab57c")
 	)
 	(wire
 		(pts
@@ -948,6 +968,16 @@
 				(justify right)
 			)
 		)
+		(pin "Translator_En" output
+			(at 125.73 59.69 90)
+			(uuid "71ff2ea9-9543-4e95-9a83-f6c85d182509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "FOC_Driver"
 				(path "/d122ff09-cd02-4f53-acb5-49b9ee3003a4"
@@ -1355,6 +1385,16 @@
 		(pin "MUX_B" input
 			(at 91.44 43.18 0)
 			(uuid "81ccce88-2fec-4936-9149-d54eb6dca07a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Translator_En" input
+			(at 91.44 39.37 0)
+			(uuid "8941c18f-e687-4e3e-8242-5ec9fa69ccb1")
 			(effects
 				(font
 					(size 1.27 1.27)
