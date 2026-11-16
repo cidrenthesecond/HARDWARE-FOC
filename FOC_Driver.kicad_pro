@@ -63,7 +63,7 @@
           "min_clearance": 0.1,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -565,16 +565,7 @@
       "/MCU/MISO": "rgb(132, 132, 132)",
       "/MCU/MOSI": "rgb(132, 132, 132)",
       "/MCU/SCLK": "rgb(132, 132, 132)",
-      "/MCU/nCS": "rgb(132, 132, 132)",
-      "Net-(U3-1Y)": "rgb(0, 132, 0)",
-      "Net-(U3-2Y)": "rgb(0, 194, 194)",
-      "Net-(U3-3Y)": "rgb(255, 0, 255)",
-      "Net-(U6-B0)": "rgb(0, 132, 0)",
-      "Net-(U6-B1)": "rgb(0, 132, 0)",
-      "Net-(U6-B2)": "rgb(0, 194, 194)",
-      "Net-(U6-B3)": "rgb(0, 194, 194)",
-      "Net-(U6-B4)": "rgb(255, 0, 255)",
-      "Net-(U6-B5)": "rgb(255, 0, 255)"
+      "/MCU/nCS": "rgb(132, 132, 132)"
     },
     "netclass_assignments": {},
     "netclass_patterns": []
@@ -767,7 +758,7 @@
         "uuid": "d122ff09-cd02-4f53-acb5-49b9ee3003a4"
       }
     ],
-    "used_designators": "#PWR132,#PWR134-135,C25,R55,TP19-24,U13",
+    "used_designators": "#FLG5,#PWR60,#PWR132,#PWR134-135,C25,R55,TP19-24,U13",
     "variants": []
   },
   "sheets": [
