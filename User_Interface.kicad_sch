@@ -5749,6 +5749,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 147.32 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 147.32 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f40d3768-97d5-419b-bbad-6caa538a7a74")
 		)
@@ -6076,6 +6098,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f248cf9-badf-40e4-9b41-f3d616c713be")
 		)
@@ -6154,6 +6198,28 @@
 			)
 		)
 		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
