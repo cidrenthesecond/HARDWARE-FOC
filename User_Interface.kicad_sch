@@ -6347,7 +6347,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "100k"
 			(at 124.206 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)

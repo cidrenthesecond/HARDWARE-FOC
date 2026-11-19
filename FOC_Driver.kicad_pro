@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.525,
-          "width": 0.65
+          "drill": 0.9,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -565,7 +565,9 @@
       "/MCU/MISO": "rgb(132, 132, 132)",
       "/MCU/MOSI": "rgb(132, 132, 132)",
       "/MCU/SCLK": "rgb(132, 132, 132)",
-      "/MCU/nCS": "rgb(132, 132, 132)"
+      "/MCU/nCS": "rgb(132, 132, 132)",
+      "Net-(U13-B4)": "rgb(0, 132, 0)",
+      "Net-(U13-B7)": "rgb(0, 194, 194)"
     },
     "netclass_assignments": {},
     "netclass_patterns": []
@@ -758,7 +760,7 @@
         "uuid": "d122ff09-cd02-4f53-acb5-49b9ee3003a4"
       }
     ],
-    "used_designators": "#FLG5,#PWR60,#PWR132,#PWR134-135,C25,R55,TP19-24,U13",
+    "used_designators": "#FLG5,#PWR54,#PWR60,#PWR132,#PWR134-135,C25,J5,R17-24,R55,TP6,TP8,TP16-17,TP19-24,U4,U13,U15",
     "variants": []
   },
   "sheets": [

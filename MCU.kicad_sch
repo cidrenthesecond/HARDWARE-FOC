@@ -3454,32 +3454,6 @@
 		(uuid "13b9a892-caf3-4219-9186-1c468a7f50b9")
 	)
 	(rectangle
-		(start 95.25 41.91)
-		(end 119.38 54.61)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "1b79a48b-724e-4977-b8e6-88240a49e37f")
-	)
-	(rectangle
-		(start 171.704 116.586)
-		(end 190.754 129.286)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 255 153 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "2edc7497-6bcb-4834-ae07-56b1bdad3ead")
-	)
-	(rectangle
 		(start 194.31 129.54)
 		(end 255.27 166.37)
 		(stroke
@@ -3575,20 +3549,6 @@
 		)
 		(uuid "1c9bb963-c1c7-4a54-9c4e-2a387b600eec")
 	)
-	(text "pick \ncrystal,\ncaps"
-		(exclude_from_sim no)
-		(at 172.72 123.19 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 153 0 1)
-			)
-			(justify left)
-		)
-		(uuid "249c188e-5d1f-432e-b884-78f90b79e44a")
-	)
 	(text "Decoupling network"
 		(exclude_from_sim no)
 		(at 33.02 52.324 0)
@@ -3598,20 +3558,6 @@
 			)
 		)
 		(uuid "2f2467d9-ee20-4671-b9f0-a378c9fb6001")
-	)
-	(text "Layout Note:\nMinimize \ninductance"
-		(exclude_from_sim no)
-		(at 97.79 48.514 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "8c1c66e6-ee06-4933-a71f-5e44a8f6b9ad")
 	)
 	(text "Boot"
 		(exclude_from_sim no)
@@ -6351,16 +6297,16 @@
 		)
 		(uuid "27c9ac45-1aca-4fd5-8717-89cf601e858b")
 	)
-	(hierarchical_label "Encoder_B"
-		(shape input)
-		(at 104.14 101.6 0)
+	(hierarchical_label "MUX_A"
+		(shape output)
+		(at 45.72 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2a674320-0f9c-46bc-a996-10533f9f83d5")
+		(uuid "40178333-d792-400b-ae62-da2c272258c8")
 	)
 	(hierarchical_label "busVoltage"
 		(shape input)
@@ -6383,6 +6329,17 @@
 			(justify left)
 		)
 		(uuid "47bbfa22-a28d-406e-a259-7053af5e2b78")
+	)
+	(hierarchical_label "MUX_B"
+		(shape output)
+		(at 45.72 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "492f9c82-f646-4cf8-9987-9cca08b97476")
 	)
 	(hierarchical_label "RUN_LED"
 		(shape output)
@@ -6463,17 +6420,6 @@
 		)
 		(uuid "5f737a90-6e2c-4d5a-b426-7d7ec3df0fad")
 	)
-	(hierarchical_label "MUX_A"
-		(shape output)
-		(at 45.72 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6314c518-88c1-4317-b544-1d55bf8f2f94")
-	)
 	(hierarchical_label "Bypass_Relay"
 		(shape output)
 		(at 200.66 59.69 0)
@@ -6484,17 +6430,6 @@
 			(justify left)
 		)
 		(uuid "6683c5f4-a806-4850-90df-a83fb8d53872")
-	)
-	(hierarchical_label "Encoder_A"
-		(shape input)
-		(at 104.14 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d8d6e63-82aa-4b7a-a355-86cbc858c544")
 	)
 	(hierarchical_label "Current_B"
 		(shape input)
@@ -6551,17 +6486,6 @@
 			(justify right)
 		)
 		(uuid "91fbcf70-e569-4ec2-8657-7d3bdb41729d")
-	)
-	(hierarchical_label "MUX_B"
-		(shape output)
-		(at 45.72 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a84d5caf-e676-4420-af11-5a7ba9fed627")
 	)
 	(hierarchical_label "Disable_Drive"
 		(shape output)
@@ -6640,6 +6564,17 @@
 		)
 		(uuid "b92e60a4-918f-4e01-9b50-28ec13a7c0c3")
 	)
+	(hierarchical_label "Encoder_A"
+		(shape input)
+		(at 104.14 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c201be09-5331-40b0-88f0-ab8c27b632ef")
+	)
 	(hierarchical_label "Estop_Signal"
 		(shape input)
 		(at 60.96 177.8 180)
@@ -6683,6 +6618,17 @@
 			(justify left)
 		)
 		(uuid "da22ae9e-b052-4c22-8290-4dbd40e75343")
+	)
+	(hierarchical_label "Encoder_B"
+		(shape input)
+		(at 104.14 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e01c8b32-75a9-42ab-a218-019f5e4be308")
 	)
 	(hierarchical_label "Estop_Signal"
 		(shape input)
